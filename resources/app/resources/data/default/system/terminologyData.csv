@@ -1,0 +1,344 @@
+id,text<jpn>
+-,
+splashMessage,<br><br><br><br>Kazuhide Oka<br><br>Chiji<br><br>ruichiro<br>
+cautionMessage,<br><br><br><br><br>本作はフィクションです。<br>実在の人物や団体などとは関係ありません。<br><br><br><br>本作は「自動セーブ」に対応しています。<br>進行状況は、特定の場面で自動的に保存されます。
+-,
+titleCredit,クレジット
+creditTitle,Credit
+creditText,企画/制作/シナリオ　Kazuhide Oka<br><br><br>キャラクターデザイン　Chiji<br><br><br>サウンドトラック　ruichiro
+creditClose,とじる
+-,
+menuStoryText,物&nbsp;&nbsp;&nbsp;語
+menuExprolerText,再&nbsp;&nbsp;&nbsp;生
+menuHouseText,荷&nbsp;&nbsp;&nbsp;物
+-,
+storyBack,&lt;
+storyNext,&gt;
+-,
+itemBoxInfoPrev0,&lt;
+itemBoxInfoPrev1,&lt;
+itemBoxInfoNext0,&gt;
+itemBoxInfoNext1,&gt;
+houseItemInfoPrev,&lt;
+houseCraftInfoPrev,&lt;
+houseItemInfoNext,&gt;
+houseCraftInfoNext,&gt;
+houseItemName,収納棚
+houseCraftName,製作台
+-,
+statusItemPrev0,&lt;
+statusItemPrev1,&lt;
+statusItemNext0,&gt;
+statusItemNext1,&gt;
+statusSkill0,特徴
+statusSkill1,特徴
+questInputHistory0,候補
+questInputHistory1,候補
+questSend0,話す
+questSend1,話す
+questTextAuto,AUTO
+logueTextAuto,AUTO
+-,
+endingMessage,End.
+-,
+gameOverMessage,G A M E &nbsp;&nbsp; O V E R
+gameOverContinue,つづける
+gameOverToTitle,タイトルへ
+-,
+optionTitle,Option
+optionClose,とじる
+-,
+questionTitle,Help
+questionClose,とじる
+-,
+helpTitle,Help
+helpClose,とじる
+-,
+catalogPagePrev,&lt;
+catalogPageNext,&gt;
+catalogClose,とじる
+-,
+selectorLeft,&lt;
+selectorRight,&gt;
+-,
+-,
+yes,はい
+no,いいえ
+-,
+confirm_exit,ゲームを終了します。<br>よろしいですか？
+confirm_clearSave,セーブデータを削除します。<br>※システムデータ（オプション設定など）は削除されません。<br><br>よろしいですか？
+confirm_animationCut,一部のアニメーションを無効にすることでフレームレートを安定させます。<br>アニメーションカットをONにしますか？
+confirm_house,荷物がいっぱいのキャラクターがいます。<br>荷物を<red>収納棚に預ける</red>ことができますが、このまま再生しますか？
+confirm_nextScenario,すでにエピソード進行条件を満たしています。<br><red>次の物語に進む</red>ことができますが、このまま再生しますか？
+confirm_go_story,「物語」へ
+confirm_go_house,「荷物」へ
+confirm_go_exproler,「再生」へ
+-,
+story_target,次の目的：
+story_target_invalid,他の物語を進める　<br>（条件を満たしていないため、この物語を進めることができません）
+story_target_continue,他の物語を進める　<br>（この物語は完結しました）
+story_target_replay,もう一度この物語を読む　<br>（この物語は完結済みです）
+story_target_noCondition,（エピソード進行条件：なし）
+story_target_questCount,（{0}件探索し、無事に帰ってくる：{1}）
+story_target_questProgress,（{0}件続けて探索し、無事に帰ってくる：{1}）
+story_target_visitLocation,（「{0}」を探索し、無事に帰ってくる：{1}）
+story_target_memoryItem,（エピソード進行アイテム&lt;{0}&gt; を見つける：{1}）
+story_target_deleteWorld,（決断をする）
+story_target_reboot,（コンピュータから離れる）
+story_target_questTimeLimit,（{0}回探索する間に次のキャンプ地を見つける：残り{1}回）
+story_targetDescription_invalid,エピソード進行条件<br><br>条件を満たしていないため、<red>このエピソードを進めることができません</red>。<br>ほかのエピソードを進行させることで、このエピソードを進行させられるようになります。
+story_targetDescription_questCount,エピソード進行条件<br><br><red>{0}件</red>探索することでエピソードが進行します。<br>（GameOverになった場合、空腹で探索を中断した場合は回数に数えられません）
+story_targetDescription_noCondition,エピソード進行条件<br><br>エピソードを進行させるための条件はありません。<br>すぐに次のエピソードに進むことができます。
+story_targetDescription_questProgress,エピソード進行条件<br><br><red>連続して{0}件</red>探索することで、エピソードが進行します。<br>（GameOverになった場合、空腹で探索を中断した場合は回数に数えられません）
+story_targetDescription_visitLocation,エピソード進行条件<br><br><red>{0}</red>を探索することでエピソードが進行します。<br>（たどり着いても、途中でGameOverになった場合、空腹で探索を中断した場合は探索した扱いになりません）
+story_targetDescription_memoryItem,エピソード進行条件<br><br>探索で<red>エピソード進行アイテム</red>を{1}つ見つけることでエピソードが進行します。<br>（見つけても、途中でGameOverになった場合、空腹で探索を中断した場合は見つけた扱いになりません）<br><br>エピソード進行アイテム&lt;{0}&gt; : {2}
+story_targetDescription_reboot,エピソード進行条件<br><br>今ここで、できることは何もありません。<br>一度、コンピュータから離れてみましょう。
+story_targetDescription_notFound,エピソード進行条件<br><br>現在のエピソード進行条件を確認することができません。
+story_targetDescription_questTimeLimit,キャンプ地<br><br><red>{0}回</red>探索するまでに、次のキャンプ地を見つけてください。<br>見つけられない場合、周囲の探索地から物資が見つかりにくくなったり、感染者が集まってくるようになります。
+story_outline_nextDestination,<br><br>{1}まで、あと{0}件。
+story_scenario_advance,次の物語を進める
+story_confirm_advance_memoryItem,エピソード進行アイテム「<red>{0}</red>」を1つ消費して、次の物語に進みます。<br>よろしいですか？
+story_confirm_advance_other,<red>エピソード進行条件</red>を満たしています。<br>次の物語に進みます。よろしいですか？
+story_confirm_advance_storyMode,<red>STORY</red>モードに設定されているため、<br>エピソード進行条件をスキップして次の物語に進みます。<br>よろしいですか？
+story_confirm_replay,もう一度、この物語を読みますか？<br>（この物語はすでに完結しています）
+story_other_invalid,<br>条件を満たしていないため、この物語を<red>進めることができません</red>。<br>他の物語を進める必要があります。
+story_other_continue,<br>この物語は<red>完結</red>しました。<br>他の物語を進めることができます。
+story_confirm_deleteWorld,すべてのデータを削除します。<br><br>よろしいですか？<br>
+story_confirm_deleteWorld_caution,<br>本当に削除しますか？<br>
+story_skip_condition,スキップ
+story_skip_condition_confirm,<br>「<red>{0}</red>」を消費して、エピソード進行条件を<red>スキップ</red>します。<br>よろしいですか？
+story_skip_condition_craft,<br>「<red>{0}</red>」をクラフトすることで、エピソード進行条件を<red>スキップ</red>できます。<br>クラフトしますか？
+-,
+exproler_path,Disc:&nbsp;/&nbsp;
+exproler_completed,&nbsp;End.
+exproler_playNewFile,新しいデータを再生
+exproler_playComplete,progress : {0}
+exproler_playFailed,failed
+exproler_locationdDscription,{0} について&nbsp;&nbsp;<br>（詳細を見る）&nbsp;&nbsp;
+exproler_endlressCharacterEpisode,完結したキャラクターエピソード : {0}/{1}
+exproler_endlressCollection,手に入れた蒐集品 : {0}/{1}
+exproler_endlressItem,手に入れたアイテム : {0}/{1}
+-,
+house_unknown,？？？？
+house_unknownDescription,<br>？？？？<br><br>（素材を1つ以上所持していると開放されます）
+house_noRecipeDescription,<br>？？？？<br><br>（レシピ/設計図を手に入れると開放されます）
+house_description,詳細
+house_remove,捨てる
+house_craft,クラフト
+house_craftTarget,クラフト先
+house_recipe,レシピ
+house_materialCount,（所持数 : {0}）
+house_pushItem,{0}へ
+house_pushItemMultiple,{0}へ（x{1}）
+house_popItem,しまう
+house_popItemMultiple,しまう（x{1}）
+house_equip,装備
+house_unequip,はずす
+house_none,なし
+house_open,開ける
+house_use,使う
+house_scenario,エピソードへ
+house_mission,届ける
+house_departure,出発する
+house_fullWarning,収納棚がいっぱいです。<br>不要な道具を捨ててください。
+house_removeWarning,<red>{0}</red>&nbsp;を捨てます。<br>よろしいですか？
+house_confirmRemoveCount,<red>{0}</red>&nbsp;をいくつ捨てますか？
+house_confirmCraftCount,<red>{0}</red>&nbsp;をいくつクラフトしますか？
+house_selectCraftMaterial,クラフトに使用する材料を選んでください。
+house_recycle,エピソード完結<br><br>完結したエピソードの<red>エピソード進行アイテム</red>を&nbsp;<red>{0}</red>&nbsp;に変換しました。
+house_unuseable,<br><br>条件を満たしていないため、使うことができません。
+-,
+vital_0,快調
+vital_1,軽傷
+vital_2,負傷
+vital_3,重症
+vital_4,命の危険
+vital_5,瀕死
+vitalDescription,<br><br>（「瀕死」になるとGameOver。装備品以外の荷物を失う）<br>（快調 > 軽傷 > 負傷 > 重症 > 命の危険 > 瀕死）
+vitalDescription_0,快調<br>体力 : {0}/{1}　全然へっちゃら。無傷。
+vitalDescription_1,軽傷<br>体力 : {0}/{1}　軽い傷を負っている。
+vitalDescription_2,負傷<br>体力 : {0}/{1}　それなりの傷を負っている。
+vitalDescription_3,重症<br>体力 : {0}/{1}　深手を負っている。
+vitalDescription_4,命の危険<br>体力 : {0}/{1}　危険な状態。
+vitalDescription_5,瀕死<br>体力 : {0}/{1}　もう動くこともできない。
+-,
+stamina_0,満腹
+stamina_1,腹八分
+stamina_2,小腹空き
+stamina_3,空腹
+stamina_4,非常に空腹
+stamina_5,飢餓
+staminaDescription,<br><br>（「飢餓」になると探索を強制的に終了する）<br>（満腹 > 腹八分 > 小腹空き > 空腹 > 非常に空腹 > 飢餓）
+staminaDescription_0,満腹<br>空腹度 : {0}/{1}　お腹いっぱい。
+staminaDescription_1,腹八分<br>空腹度 : {0}/{1}　ちょっとお腹空いてきたかもしれない。
+staminaDescription_2,小腹空き<br>空腹度 : {0}/{1}　お腹空いてきたけど、まだ大丈夫。
+staminaDescription_3,空腹<br>空腹度 : {0}/{1}　歩いている間もお腹が鳴る。
+staminaDescription_4,非常に空腹<br>空腹度 : {0}/{1}　空腹も苦痛になってくる。
+staminaDescription_5,飢餓<br>空腹度 : {0}/{1}　もうこれ以上進むことはできない。
+-,
+inputHistory_current,&nbsp;<blue>[現在地]</blue>
+inputHistory_explored,&nbsp;<gray>[探索済]</gray>
+inputHistory_unexplored,&nbsp;<green>[未探索]</green>
+-,
+speak_input,話す
+input_placeholder,入力/テキストをクリック
+textAuto_0,ふつう
+textAuto_1,はやい
+textAuto_2,おそい
+textAuto_3,スキップ
+textWait_0,ふつう
+textWait_1,はやい
+textWait_2,おそい
+textWait_3,スキップ
+-,
+textHistory_off,<gray>（ 候補をOFF ）</gray>
+-,
+item_switch_house,収納
+item_switch_craft,クラフト
+item_category_default,カテゴリ
+item_category_all,すべて
+item_category_heal,薬/食べ物
+item_category_equip,装備/弾薬
+item_category_material,材料/食材
+item_category_memory,エピソード
+item_category_collection,蒐集品
+item_category_other,その他
+item_category_craft,クラフト
+item_sort_default,並び替え
+item_sort_get,入手順
+item_sort_type,種類順
+item_sort_name,名前順
+item_toHouse,収納棚へ
+item_equip,[装備中]
+item_use,使う
+item_dismantle,分解する
+item_temporary,<br>(発見済み。探索を終えると、自動的に収納棚に仕舞われます)
+item_inHand,<br>（荷物がいっぱいで、この品か、他の品を置いていく必要があります）
+item_selectTarget,対象となる道具を選んでください。
+item_targetNotFound,<br>対象となる道具がありません。<br>
+item_noWeight,<br>（「荷物」の所持数に数えられません）
+-,
+itemBoxCount,荷物 ({0}/{1})
+-,
+letterReward_Gun00,銃器
+letterReward_Hammer00,武器
+letterReward_Box00,物資
+letterReward_Map00,地図
+letterReward_Variable00,武器のパーツ
+-,
+missionReward_coin,画材
+missionReward_weapon,武器
+missionReward_box,物資
+missionReward_variable,武器のパーツ
+missionReward_addAccessory,武器のパーツ
+-,
+selection_and,と
+selection_or,か
+selection_comma,、
+battle_and,と
+-,
+sound_on,sound on
+sound_off,sound off
+-,
+titleStart,はじめる
+titleContinue,旅をつづける
+-,
+option_bgmVolume,BGM Volume
+option_seVolume,SE Volume
+option_fullscreenMode,フルスクリーンモード
+option_windowMode,ウィンドウモード
+option_windowSize,ウィンドウサイズ
+option_animationCut_on,アニメーションカット：ON
+option_animationCut_off,アニメーションカット：OFF
+option_textWaitType,テキスト速度
+option_textAutoWaitType,AUTO文字送り
+option_fontSize_0,文字サイズ：通常
+option_fontSize_1,文字サイズ：大きめ
+option_fontSize_2,文字サイズ：最大
+option_textAutoStop_on,エピソードでAUTOをOFF
+option_textAutoStop_off,エピソードでAUTOをOFFしない
+option_returnTitle,タイトルへ
+option_modeSelect,モード選択
+option_clearSave,セーブデータ削除
+option_exit,終了
+-,
+question_help,操作・機能説明
+question_storyTarget,エピソード進行条件を確認
+question_craft,クラフトレシピ一覧
+question_itemCatalog,道具/料理一覧
+question_contents,コンテンツ情報
+-,
+mode_normal,NORMAL
+mode_story,STORY
+mode_selectConfirm,プレイするモードを選択してください。<br>{0}<br><br><red>NORMAL</red> : 通常のモードです。彼女たちとともに旅をし、探索しながら物語を進めていきます。<br><red>STORY</red> : 物語だけを読んでいくモードです。探索をスキップすることができます。
+mode_storyWarning,<red>STORY</red>モードでは、探索をスキップし、物語だけを読み進めることができます。<br>物語の体験、テンポ感が損なわれる可能性があります。<br><br>よろしいですか？
+mode_changeable,（モードは、タイトル画面でいつでも変更できます）
+mode_currentMode,（現在のモード：{0}）
+-,
+help_search,探索について
+help_inputWord,テキストの入力について
+help_redWord,赤文字の単語について
+help_vitalStamina,体力/空腹度について
+help_inventory,探索中の荷物について
+help_skill,「特徴」について
+help_story,「物語」画面について
+help_explorer,「再生」画面について
+help_house,「荷物」画面について
+help_saveData,セーブデータについて
+help_earlyAccess,早期アクセスについて
+help_contact,ご意見ご感想、不具合などの報告
+-,
+helpDescription_search,探索について<br><br>ナツノたちは、生き残るために廃墟などを探索します。<br>使えそうな<red>道具</red>を見つけたり、<red>食料</red>を探し出しましょう。<br>ナツノたちは自分の<red>意志</red>で探索を行いますが、<red>テキストを入力することで</red>サポートすることもできます。
+helpDescription_inputWord,テキストの入力について<br><br>テキストウィンドウの下の<red>テキスト入力エリア</red>に文字を入力し、<br>ナツノたちに伝えることができます。<br>シナリオイベント中は、テキストウィンドウに<red>鉛筆アイコン</red>が表示さている間のみ、テキストを入力することができます。
+helpDescription_redWord,赤文字の単語について<br><br>テキスト中に<red>赤文字</red>の単語が表示されることがあります。<br>この単語を<red>クリック</red>することで、テキスト入力エリアにコピーすることができます（一部、そうでないものもあります）。<br>また、同行者がいる場合、<red>単語を右クリックすることで、もう一方のキャラクターのテキスト入力エリアにコピー</red>できます。
+helpDescription_vitalStamina,体力/空腹度について<br><br>体力は、敵との<red>戦闘</red>などで減少します。体力がなくなるとGameOverとなり、装備品以外の荷物を失います。<br>空腹度は、探索中、<red>行動する度に</red>減少します。探索の途中で空腹度がなくなると、探索を強制終了します。<br>体力、空腹度ともに、<red>探索終了時に全回復</red>します。
+helpDescription_inventory,探索中の荷物について<br><br>探索中、取得した道具や食料は<red>「荷物」ボタン</red>を押すことで確認できます。<br>道具の<red>詳細</red>を確認したり、<red>同行者がいる場合は手渡すことができます</red>。<br>持ち歩くことのできる荷物の数には<red>上限</red>があり、超える場合は荷物を捨てる必要があります。
+helpDescription_skill,「特徴」について<br><br>キャラクターはそれぞれ<red>特徴</red>をもっています。<br>それぞれの特徴の効力は、探索中、<red>「特徴」ボタン</red>を押すことで確認できます。
+helpDescription_story,「物語」画面について<br><br>「物語」画面では、<red>シナリオの概要</red>を確認できます。<br>探索でエピソード進行条件を満たすと、「物語」画面から<red>物語を進める</red>ことができるようになります。
+helpDescription_explorer,「再生」画面について<br><br>「再生」画面では、再生する<red>データ</red>を選択し、<red>探索</red>に向かうことができます。<br>探索では道具や食料を調達できます。
+helpDescription_house,「荷物」画面について<br><br>「荷物」画面では、探索等で取得した荷物を<red>収納棚</red>に預けることができます。<br>また、カテゴリから<red>クラフト</red>を選択することで、道具や料理を作成できます。<br>手持ちの荷物を<red>右クリック</red>することで、素早く収納棚に預けることもできます。
+helpDescription_saveData,セーブデータについて<br><br>本作は自動セーブに対応しています。シナリオ進行時、探索終了時等で自動的に保存されます。<br>セーブデータを削除したい場合、タイトル画面からオプションを開き、「セーブデータ削除」を選択してください。
+helpDescription_earlyAccess,早期アクセスについて<br><br>本作は 早期アクセス版 です。<br>システム、シナリオ、リソース等の一部に製品版とは異なるものが含まれます。<br>今後のアップデートで、探索を中心としたシステムの改善、エピソードやキャラクターの追加なども予定しております。
+helpDescription_contact,ご意見ご感想、不具合などの報告<br><br>よりよい体験をお届けするために皆様のご意見、ご感想を募集しております。<br>また、不具合と思われる挙動を確認された場合にも、ご報告いただけますと助かります。<br>詳しくは公式webページ（https://natsuno-kanata.online/）にて。
+-,
+calalog_unknown,？？？？
+calalog_notOpenedItem,？？？？<br><br>まだ入手したことのない道具、料理です。
+-,
+dialog_close,とじる
+dialog_stop,やめる
+-,
+context_prev,< 前へ
+context_next,次へ >
+-,
+location_depth,広さ : <red>{0}</red>
+location_depthNarrow,狭い
+location_depthMiddle,そこそこ
+location_depthWide,広い
+location_enemyLevel,危険度 : <red>{0}</red>
+location_enemyLevelLow,低い
+location_enemyLevelMiddle,そこそこ
+location_enemyLevelHigh,高い
+location_enemyLevelVeryHigh,とても高い
+location_prioritizeItem,よく見つかるもの : <red>{0}</red>
+location_prioritizeItemNone,なし
+-,
+stagePrefix_0,東の
+stagePrefix_1,南西の
+stagePrefix_2,西の
+stagePrefix_3,北東の
+stagePrefix_4,南の
+stagePrefix_5,南東の
+stagePrefix_6,北の
+stagePrefix_7,北西の
+stagePrefix_8,北北西の
+stagePrefix_9,南南東の
+-,
+input_symbol,──
+input_period,。
+unknown_question,???
+omit_symbol,...
+delete,削除する
+piece,こ
+passage,件
+select,選択
+-,

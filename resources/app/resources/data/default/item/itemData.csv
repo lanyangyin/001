@@ -1,0 +1,256 @@
+﻿id,name<jpn>,ruby<jpn>,area,rarity,ratio,category,tag,type,arg0,arg1,arg2,arg3,variable,accessory,speak,sound,utilizeSound,weight,inventoryLimit,context,trash,lost,stack,mergeable,catalog,description<jpn>
+heal00,包帯,ほうたい,-,1,0.3,heal,medicine,heal,40,,,,,,use,heal00,-,1,-,-,true,true,1,true,true,傷口を覆う包帯。使用すると体力を40回復。
+heal01,救急箱,きゅうきゅうばこ,-,30,0.1,heal,medicine,heal,80,,,,,,use,heal00,-,1,-,-,true,true,1,true,true,手当をするための道具が揃えた箱。使用すると体力を80回復。
+-,,,,,,,,,,,,,,,,,,,,,,,,,,
+cooking00,サンドイッチ,さんどいっち,-,-1,0,heal,cooking,cooking,25,35,bread,,,,-,eat00,-,1,-,-,true,true,1,true,true,ハムをパンで挟んだサンドイッチ。<br>使用すると体力を{0}回復、空腹度を{1}回復。
+cooking01,ハンバーグ,はんばーぐ,-,-1,0,heal,cooking,cooking,35,25,meat,,,,-,eat00,-,1,-,-,true,true,1,true,true,コンビーフを砕いて玉ねぎと一緒に練ったハンバーグ。<br>使用すると体力を{0}回復、空腹度を{1}回復。
+cooking02,串焼き肉,くしやきにく,-,-1,0,heal,cooking,cooking,20,10,meat,,,,-,eat00,-,1,-,-,true,true,1,true,true,串に刺した肉を直火で焼いた一品。<br>使用すると体力を{0}回復、空腹度を{1}回復。
+cooking03,コンソメスープ,こんそめすーぷ,-,-1,0,heal,cooking,cooking,20,10,vegetable,,,,-,eat00,-,1,-,-,true,true,1,true,true,インスタントのコンソメスープ。<br>使用すると体力を{0}回復、空腹度を{1}回復。
+cooking04,おにぎり,おにぎり,-,-1,0,heal,cooking,cooking,15,15,rice,,,,-,eat00,-,1,-,-,true,true,1,true,true,手に塩をかけて握ったおにぎり。<br>使用すると体力を{0}回復、空腹度を{1}回復。
+cooking05,焼きおにぎり,やきおにぎり,-,-1,0,heal,cooking,cooking,30,30,rice,,,,-,eat00,-,1,-,-,true,true,1,true,true,香ばしい焦げ目をつけたおにぎり。<br>使用すると体力を{0}回復、空腹度を{1}回復。
+cooking06,オムレツ,おむれつ,-,-1,0,heal,cooking,cooking,10,20,egg,,,,-,eat00,-,1,-,-,true,true,1,true,true,ふんわり焼き上げたオムレツ。<br>使用すると体力を{0}回復、空腹度を{1}回復。
+cooking07,たまごサンド,たまごさんど,-,-1,0,heal,cooking,cooking,25,35,egg,,,,-,eat00,-,1,-,-,true,true,1,true,true,砕いたゆで卵を挟んだサンドイッチ。<br>使用すると体力を{0}回復、空腹度を{1}回復。
+cooking08,肉煮込み,にくにこみ,-,-1,0,heal,cooking,cooking,40,20,meat,,,,-,eat00,-,1,-,-,true,true,1,true,true,じっくり時間をかけた肉を煮込んだ一品。<br>使用すると体力を{0}回復、空腹度を{1}回復。
+cooking09,玉ねぎスープ,玉ねぎすーぷ,-,-1,0,heal,cooking,cooking,40,20,vegetable,,,,-,eat00,-,1,-,-,true,true,1,true,true,玉ねぎをたっぷり使ったスープ。<br>使用すると体力を{0}回復、空腹度を{1}回復。
+cooking10,焼き魚,やきざかな,-,-1,0,heal,cooking,cooking,15,15,fish,,,,-,eat00,-,1,-,-,true,true,1,true,true,木の串を刺して、焚き火で焼いた魚。<br>使用すると体力を{0}回復、空腹度を{1}回復。
+cooking11,白身魚のオーブン蒸し,しろみざかなのおーぶんむし,-,-1,0,heal,cooking,cooking,30,30,fish,,,,-,eat00,-,1,-,-,true,true,1,true,true,時間をかけて蒸した魚料理。<br>使用すると体力を{0}回復、空腹度を{1}回復。
+cooking12,ホットサンド,ほっとさんど,-,-1,0,heal,cooking,cooking,45,55,bread,,,,-,eat00,-,1,-,-,true,true,1,true,true,ハムをパンで挟んで焼き上げたサンドイッチ。<br>使用すると体力を{0}回復、空腹度を{1}回復。
+cooking13,オニオンリング,おにおんりんぐ,-,-1,0,heal,cooking,cooking,20,10,vegetable,,,,-,eat00,-,1,-,-,true,true,1,true,true,薄切りの玉ねぎを油で揚げた一品。<br>使用すると体力を{0}回復、空腹度を{1}回復。
+cooking14,フライドポテト,ふらいどぽてと,-,-1,0,heal,cooking,cooking,10,20,vegetable,,,,-,eat00,-,1,-,-,true,true,1,true,true,細く切ったじゃがいもを油でカラッと。<br>使用すると体力を{0}回復、空腹度を{1}回復。
+cooking15,たまごかけごはん,たまごかけごはん,-,-1,0,heal,cooking,cooking,30,30,rice,,,,-,eat00,-,1,-,-,true,true,1,true,true,白米にたまごを乗せて、さっとかき混ぜただけの簡単な料理。<br>使用すると体力を{0}回復、空腹度を{1}回復。
+cooking16,ハムエッグ,はむえっぐ,-,-1,0,heal,cooking,cooking,40,20,meat,,,,-,eat00,-,1,-,-,true,true,1,true,true,ハムと一緒に焼いた目玉焼き。<br>使用すると体力を{0}回復、空腹度を{1}回復。
+cooking17,魚のコンソメ煮,さかなのこんそめに,-,-1,0,heal,cooking,cooking,30,30,fish,,,,-,eat00,-,1,-,-,true,true,1,true,true,白身魚をコンソメで煮詰めた料理。<br>使用すると体力を{0}回復、空腹度を{1}回復。
+cooking18,ピザトースト,ぴざとーすと,-,-1,0,heal,cooking,cooking,25,35,bread,,,,-,eat00,-,1,-,-,true,true,1,true,true,パンにチーズをたっぷりかけて焼き上げた。<br>使用すると体力を{0}回復、空腹度を{1}回復。
+cooking19,肉巻きチーズ,にくまきちーず,-,-1,0,heal,cooking,cooking,40,20,meat,,,,-,eat00,-,1,-,-,true,true,1,true,true,チーズに薄切り肉を巻いて、じっくり焼き上げた料理。溶けたチーズが食欲をそそる。<br>使用すると体力を{0}回復、空腹度を{1}回復。
+cooking20,チーズサンド,ちーずさんど,-,-1,0,heal,cooking,cooking,30,30,sweets,,,,-,eat00,-,1,-,-,true,true,1,true,true,チーズをビスケットで挟んだ一品。<br>使用すると体力を{0}回復、空腹度を{1}回復。
+cooking21,じゃがいものポタージュ,じゃがいものぽたーじゅ,-,-1,0,heal,cooking,cooking,40,20,vegetable,,,,-,eat00,-,1,-,-,true,true,1,true,true,じゃがいものスープ。<br>使用すると体力を{0}回復、空腹度を{1}回復。
+cooking22,じゃがチーズ焼き,じゃちーずやき,-,-1,0,heal,cooking,cooking,20,40,vegetable,,,,-,eat00,-,1,-,-,true,true,1,true,true,溶けたチーズとじゃがいもを絡めた一品。<br>使用すると体力を{0}回復、空腹度を{1}回復。
+cooking23,肉じゃが,にくじゃが,-,-1,0,heal,cooking,cooking,30,30,meat,,,,-,eat00,-,1,-,-,true,true,1,true,true,肉やじゃがいもを煮込んだ家庭料理。<br>使用すると体力を{0}回復、空腹度を{1}回復。
+cooking24,ポテトサラダ,ぽてとさらだ,-,-1,0,heal,cooking,cooking,20,40,vegetable,,,,-,eat00,-,1,-,-,true,true,1,true,true,潰したじゃがいもと野菜のサラダ。<br>使用すると体力を{0}回復、空腹度を{1}回復。
+-,,,,,,,,,,,,,,,,,,,,,,,,,,
+biscuit00,乾パン,かんぱん,-,1,0.5,heal,food,cooking,0,15,,,,,-,eat00,-,1,-,-,true,true,1,true,true,保存用のビスケット。<br>使用すると空腹度を15回復。
+biscuit01,チョコレートバー,ちょこれーとばー,-,1,0.5,heal,food,cooking,0,15,,,,,-,eat00,-,1,-,-,true,true,1,true,true,保存用のチョコレート。<br>使用すると空腹度を15回復。
+biscuit02,ぶどう味のゼリー飲料,ぶどうあじのぜりーいんりょう,-,1,0.5,heal,food,cooking,0,15,,,,,-,eat00,-,1,-,-,true,true,1,true,true,飲むタイプのゼリー。無果汁。<br>使用すると空腹度を15回復。
+-,,,,,,,,,,,,,,,,,,,,,,,,,,
+gun00,ハンドガン,はんどがん,-,5,0.5,equip,gun,weapon,10,0.08,ammo00,2,random10,weapon,equip,weapon00,gun00,1,-,equip,true,true,1,true,true,遠距離武器。装備して使う。専用の弾薬がなければ使えない。攻撃 + {0} + {1}
+gun01,ショットガン,しょっとがん,-,10,0.4,equip,gun,weapon,20,0.08,ammo01,1,random10,weapon,equip,weapon00,gun01,1,-,equip,true,true,1,true,true,遠距離武器。装備して使う。専用の弾薬がなければ使えない。攻撃 + {0} + {1}
+gun03,ライフル,らいふる,-,15,0.3,equip,gun,weapon,30,0.08,ammo02,3,random10,weapon,equip,weapon00,gun02,1,-,equip,true,true,1,true,true,遠距離武器。装備して使う。専用の弾薬がなければ使えない。攻撃 + {0} + {1}
+gun04,サブマシンガン,さぶましんがん,-,25,0.3,equip,gun,weapon,40,0.08,ammo03,2,random10,-,equip,weapon00,gun03,1,,equip,true,true,1,true,true,遠距離武器。装備して使う。専用の弾薬がなければ使えない。攻撃 + {0} + {1}
+-,,,,,,,,,,,,,,,,,,,,,,,,,,
+hammer00,金づち,かなづり,-,1,0.5,equip,hammer,weapon,2,0.1,,0,-,weapon,equip,weapon00,attack00,1,-,equip,true,true,1,true,true,近接武器。装備して使う。攻撃 + {0}
+hammer01,クギバット,くぎばっと,-,-1,0,equip,hammer,weapon,3,0.1,,0,random10,weapon,equip,weapon00,attack00,1,-,equip,true,true,1,true,true,近接武器。装備して使う。攻撃 + {0} + {1}
+hammer02,鉄パイプ,てつぱいぷ,-,10,0.5,equip,hammer,weapon,5,0.1,,0,random10,weapon,equip,weapon00,attack00,1,-,equip,true,true,1,true,true,近接武器。装備して使う。攻撃 + {0} + {1}
+hammer03,バール,ばーる,-,20,0.5,equip,hammer,weapon,8,0.1,,0,random10,weapon,equip,weapon00,attack00,1,-,equip,true,true,1,true,true,近接武器。装備して使う。攻撃 + {0} + {1}
+hammer04,ガラスの破片,がらすのはへん,-,-1,0,equip,hammer,weapon,2,0.3,,0,-,-,equip,weapon00,attack00,1,-,equip,true,true,1,true,true,近接武器。装備して使う。攻撃 + {0}<br>このままでは使いづらいし、すぐに壊れてしまう。何かと組み合わせれば、もっと役に立つかも。
+hammer05,包丁,ほうちょう,-,-1,0,equip,hammer,weapon,3,0.3,,0,-,-,equip,weapon00,attack00,1,-,equip,true,true,1,true,true,近接武器。装備して使う。攻撃 + {0}<br>このままでは使いづらいし、すぐに壊れてしまう。何かと組み合わせれば、もっと役に立つかも。
+hammer06,お手製の槍,おてせいのやり,-,-1,0,equip,hammer,weapon,5,0.1,,0,random10,-,equip,weapon00,attack00,1,-,equip,true,true,1,true,true,近接武器。装備して使う。攻撃 + {0} + {1}<br>包丁と木の棒でつくった、お手製の槍。
+hammer07,穴のあいたフライパン,あなのあいたふらいぱん,-,15,0.5,equip,hammer,weapon,5,0.1,,0,random5,-,equip,weapon00,attack00,1,-,equip,true,true,1,true,true,近接武器。装備して使う。攻撃 + {0} + {1}<br>穴があいてしまったフライパン。料理には使えないけれど、ちょうどいい重さで、武器になりそう。
+hammer08,ゴルフクラブ,ごるふくらぶ,-,30,0.5,equip,hammer,weapon,7,0.1,,0,random5,-,equip,weapon00,attack00,1,-,equip,true,true,1,true,true,近接武器。装備して使う。攻撃 + {0} + {1}
+hammer09,お手製スラッパー,おてせいすらっぱー,-,-1,0,equip,hammer,weapon,4,0.1,,0,random5,-,equip,weapon00,attack00,1,-,equip,true,true,1,true,true,近接武器。装備して使う。攻撃 + {0} + {1}<br>先端に重りの入ったこん棒。
+-,,,,,,,,,,,,,,,,,,,,,,,,,,
+ammo00,ハンドガンの弾,はんどがんのたま,-,1,0.8,equip,ammo,ammo,,,,,,,-,-,-,1,-,-,true,true,5,true,true,「ハンドガン」で使う弾薬。
+ammo01,ショットガンの弾,しょっとがんのたま,-,6,0.7,equip,ammo,ammo,,,,,,,-,-,-,1,-,-,true,true,5,true,true,「ショットガン」で使う弾薬。
+ammo02,ライフルの弾,らいふるのたま,-,11,0.6,equip,ammo,ammo,,,,,,,-,-,-,1,-,-,true,true,5,true,true,「ライフル」で使う弾薬。
+ammo03,マガジン,まがしん,-,21,0.6,equip,ammo,ammo,,,,,,,-,-,-,1,-,-,true,true,5,true,true,「サブマシンガン」で使う弾薬。
+-,,,,,,,,,,,,,,,,,,,,,,,,,,
+armor00,軍手,ぐんて,-,5,0.5,equip,armor,armor,3,0.1,default,,random5,,equip,armor00,-,1,-,equip,true,true,1,true,true,防具。装備して使う。防御 + {0} + {1}
+armor01,甲手,こて,-,10,0.5,equip,armor,armor,5,0.1,default,,random5,,equip,armor00,-,1,-,equip,true,true,1,true,true,防具。装備して使う。防御 + {0} + {1}
+armor02,防弾ベスト,ぼうだんべすと,-,15,0.5,equip,armor,armor,7,0.1,default,,random5,,equip,armor00,-,1,-,equip,true,true,1,true,true,防具。装備して使う。防御 + {0} + {1}
+armor100,サンタのワンピース,さんたのわんぴーす,-,-1,0,equip,armor,armor,0,0,santa,,-,,equip,armor00,-,1,-,equip,true,false,1,true,true,防具。装備して使う。防御 + {0}<br>サンタクロースをモチーフにした衣装。<br>（装備して探索に行くと衣装が反映されます）
+armor101,小悪魔なワンピース,こあくまなわんぴーす,-,-1,0,equip,armor,armor,0,0,devil,,-,,equip,armor00,-,1,-,equip,true,false,1,true,true,防具。装備して使う。防御 + {0}<br>小悪魔をモチーフにした衣装。<br>（装備して探索に行くと衣装が反映されます）
+-,,,,,,,,,,,,,,,,,,,,,,,,,,
+material00,木材,もくざい,-,1,0.5,material,material,material,,,,,,,-,-,-,1,-,-,true,true,1,true,true,捨てられていた木材。何かの材料になるかも。
+material01,鉄くず,てつくず,-,1,0.5,material,material,material,,,,,,,-,-,-,1,-,-,true,true,1,true,true,捨てられていた鉄くず。何かの材料になるかも。
+material02,布切れ,ぬのきれ,-,1,0.5,material,material,material,,,,,,,-,-,-,1,-,-,true,true,1,true,true,捨てられていた布切れ。何かの材料になるかも。
+material03,電子部品,でんしぶひん,-,1,0.1,material,material,material,,,,,,,-,-,-,1,-,-,true,true,1,true,true,捨てられていた電子部品。何かの材料になるかも。
+material04,火薬,かやく,-,1,0.5,material,material,material,,,,,,,-,-,-,1,-,-,true,true,1,true,true,乾いた火薬。弾薬の材料に使えるかもしれない。
+material11,燃料油,ねんりょうあぶら,-,1,0.5,material,material,material,,,,,,,-,-,-,1,-,-,true,true,1,true,true,よく燃える油。このままでは使いようがない。
+material12,細い糸,ほそいいと,-,1,0.5,material,material,material,,,,,,,-,-,-,1,-,-,true,true,1,true,true,少し絡まった細い糸。それなりの長さがある。<br>何かに使えるかも。
+material13,ロープ,ろーぷ,-,20,0.5,material,material,material,,,,,,,-,-,-,1,-,-,true,true,1,true,true,頑丈なロープ。簡単には千切れない。<br>何かの材料になるかも。
+-,,,,,,,,,,,,,,,,,,,,,,,,,,
+cookingTool00,ダッチオーブン,だっちおーぶん,-,1,0.5,material,cookingTool,material,,,,,,,-,-,-,1,-,-,true,true,1,true,true,蓋つきの分厚い鍋。ずいぶん使い込まれている。
+cookingTool01,スキレット,すきれっと,-,1,0.5,material,cookingTool,material,,,,,,,-,-,-,1,-,-,true,true,1,true,true,鋳鉄製の小さなフライパン。
+cookingTool02,ホットサンドメーカー,ほっとさんどめーかー,-,1,0.5,material,cookingTool,material,,,,,,,-,-,-,1,-,-,true,true,1,true,true,フライパンを向かい合わせに重ねたような構造をした、ホットサンドをつくるための器具。
+-,,,,,,,,,,,,,,,,,,,,,,,,,,
+food00,塩蔵肉の缶詰,えんぞうにくのかんづめ,-,1,1.0,material,food,food,5,,,,,,eat_notTasty,eat00,-,1,-,-,true,true,1,true,true,塩漬けにした牛肉の缶詰。貴重なたんぱく源。<br>使用すると空腹度を5回復するけれど、どうせなら調理してから食べたい。
+food01,コンソメの素,こんそめのもと,-,1,1.0,material,food,food,5,,,,,,eat_notTasty,eat00,-,1,-,-,true,true,1,true,true,固形タイプのコンソメスープの素。ちょっと湿気ている。<br>使用すると空腹度を5回復するけれど、どうせなら調理してから食べたい。
+food02,米,こめ,-,1,1.0,material,food,food,5,,,,,,eat_notTasty,eat00,-,1,-,-,true,true,1,true,true,少し古くなった米。でもまだ食べられる。<br>使用すると空腹度を5回復するけれど、どうせなら調理してから食べたい。
+food03,たまご,たまご,-,1,1.0,material,food,food,5,,,,,,eat_notTasty,eat00,-,1,-,-,true,true,1,true,true,鶏の卵。たぶんまだ食べられる。<br>使用すると空腹度を5回復するけれど、どうせなら調理してから食べたい。
+food04,ハム,はむ,-,1,1.0,material,food,food,5,,,,,,eat_notTasty,eat00,-,1,-,-,true,true,1,true,true,燻製にした豚肉。独特の風味がある。<br>使用すると空腹度を5回復するけれど、どうせなら調理してから食べたい。
+food05,玉ねぎ,玉ねぎ,-,1,1.0,material,food,food,5,,,,,,eat_notTasty,eat00,-,1,-,-,true,true,1,true,true,大きめの玉ねぎ。<br>使用すると空腹度を5回復するけれど、どうせなら調理してから食べたい。
+food06,ライ麦パン,らいむぎぱん,-,1,1.0,material,food,food,5,,,,,,eat_notTasty,eat00,-,1,-,-,true,true,1,true,true,ライ麦でつくられた黒パン。ちょっと固い。<br>使用すると空腹度を5回復するけれど、どうせなら調理してから食べたい。
+food07,小さな魚,ちいさなさかな,-,-1,0,material,food,food,1,,,,,,eat_notTasty,eat00,-,1,-,-,true,true,1,true,true,小さな生魚。食べられそう。<br>使用すると空腹度を1回復するけれど、どうせなら調理してから食べたい。
+food08,スライスチーズ,すらいすちーず,-,1,1.0,material,food,food,5,,,,,,eat_notTasty,eat00,-,1,-,-,true,true,1,true,true,薄切りのチーズ。<br>使用すると空腹度を5回復するけれど、どうせなら調理してから食べたい。
+food09,じゃがいも,じゃがいも,-,1,1.0,material,food,food,5,,,,,,eat_notTasty,eat00,-,1,-,-,true,true,1,true,true,まだ土のついた大きなじゃがいも。<br>使用すると空腹度を5回復するけれど、どうせなら調理してから食べたい。
+-,,,,,,,,,,,,,,,,,,,,,,,,,,
+bell00,空き缶,あきかん,-,5,0.3,other,material,stageOption,StageOptionNoBattle,,,,,,useBell,can00,-,1,-,-,true,true,1,true,true,空っぽの缶。遠くに投げることで注意を引き、現在の部屋で会敵しなくなる。<br>ただし戦闘中は使用できない。
+bell01,空き瓶,あきびん,-,5,0.3,other,material,stageOption,StageOptionNoBattle,,,,,,useBell,glass00,-,1,-,-,true,true,1,true,true,空っぽの瓶。遠くに投げることで注意を引き、現在の部屋で会敵しなくなる。<br>ただし戦闘中は使用できない。
+bell02,電子ブザー,でんしぶざー,-,-1,0,other,material,stageOption,StageOptionNoBattle,,,,,,useBell,bell00,-,1,-,-,true,true,1,true,true,大きな音が鳴る電子ブザー。遠くに投げることで注意を引き、現在の部屋で会敵しなくなる。<br>ただし戦闘中は使用できない。
+film00,ポラロイドフィルム,ぽらろいどふぃるむ,endless,5,0.3,other,material,film,,,,,,,-,-,-,1,-,-,true,true,1,true,true,「ポラロイドカメラ」用のフィルム。
+-,,,,,,,,,,,,,,,,,,,,,,,,,,
+tool00,懐中電灯,かいちゅうでんとう,-,5,0.3,other,tool,tool,light,0.1,toolInteract,,,,-,-,-,1,-,-,true,true,1,true,true,道具。所持して特定のものを調べると、勝手に使ってくれる。<br>懐中電灯の明かりで<red>収納や棚など</red>を調べれば、<red>安全に</red>物資を探し出すことができる。
+tool01,ドライバー,どらいばー,-,5,0.3,other,tool,tool,driver,0.1,toolInteract,,,,-,-,-,1,-,-,true,true,1,true,true,道具。所持して特定のものを調べると、勝手に使ってくれる。<br><red>ネジ</red>で絞められたものを調べると、今まで見つけられなかったものが見つかるかも。
+tool02,キーピック,きーぴっく,-,5,0.3,other,tool,tool,keyPick,0.1,toolInteract,,,,-,-,-,1,-,-,true,true,1,true,true,道具。所持して特定のものを調べると、勝手に使ってくれる。<br><red>机や台など</red>を調べると、引き出しに取りつけられた単純な鍵なら開けられる。
+tool03,釣り竿,つりざお,-,5,0.3,other,tool,tool,fishing,0.1,-,,,,-,-,-,1,-,-,true,true,1,true,true,道具。所持して特定のものを調べると、勝手に使ってくれる。<br><red>川辺や海辺など</red>を調べると、釣りをすることができる。
+attack00,火炎瓶,かえんびん,-,5,0.1,other,tool,attack,20,,,,,,itemAttack,glass00,-,1,-,-,true,true,1,true,true,油を染み込ませた布を入れた瓶。敵に20ダメージを与えることができる。
+attack01,手製爆弾,てせいばくだん,-,5,0.1,other,tool,attack,20,,,,,,itemAttack,explode00,-,1,-,-,true,true,1,true,true,火薬とガラス片からつくったお手製の爆弾。敵に20ダメージを与えることができる。
+attack02,閃光発音筒,せんこうはつおんとう,-,1,0.5,other,tool,reserveEnemyAttack,EnemyAttackWait/EnemyAttackWait,,,,,,itemAttack,explode00,-,1,-,-,true,true,1,true,true,爆発音と閃光を放ち、一時的に敵を無力化する。<br>（戦闘中の敵の行動を一時的に止めることができる。また、敵の「溜め」を解放する）
+camera00,ポラロイドカメラ,ぽらろいどかめら,-,-1,0,other,tool,event,selectionTakePhoto00,false,,,,,-,-,-,1,-,-,false,false,1,true,false,撮影するとすぐに現像されるインスタントカメラ。<br>「ポラロイドフィルム」があれば、遠くにある<red>キャンプ地</red>の写真を撮ることができる。
+dismantle00,分解キット,ぶんかいきっと,-,8,0.3,other,tool,dismantle,craft,,,,,,-,-,craft00,1,-,use,true,true,1,true,true,道具を分解するための工具をまとめたキット。<br>道具を<red>クラフト前の材料</red>に戻すことができる。使用すると消費される。
+trap00,くくり罠,くくりわな,-,-1,0,other,tool,trap,locationOption,LocationOptionNoBattle,,,,,-,-,-,1,-,-,true,true,1,true,true,ロープでつくった簡単な罠。<br>所持して探索に行くと、罠を設置して敵を排除できる。
+trap01,まきびし,まきびし,-,-1,0,other,tool,trap,locationOption,LocationOptionNoBattle,,,,,-,-,-,1,-,-,true,true,1,true,true,割れたガラスでつくったまきびし。<br>所持して探索に行くと、罠を設置して敵を排除できる。
+craft00,携帯工作台,けいたいこうさくだい,-,20,0.1,other,tool,event,selectionItemCraft02,false,,,,,-,-,-,1,-,-,true,true,1,true,true,小さな工作台。簡易なものだけれど、材料さえあれば道具をつくることができる。<br>（探索中に、所持品から<red>道具</red>を<red>クラフト</red>することができます）
+craft01,携帯調理器,けいたいちょうりき,-,20,0.1,other,tool,event,selectionItemCook02,false,,,,,-,-,-,1,-,-,true,true,1,true,true,小さな調理台。簡易なものだけれど、材料さえあれば料理することができる。<br>（探索中に、所持品から<red>料理</red>を<red>クラフト</red>することができます）
+-,,,,,,,,,,,,,,,,,,,,,,,,,,
+box00,食材の詰まった箱,しょくざいのつまったはこ,-,5,1,other,box,box,food,8,,,,,-,-,search00,1,-,open,true,true,1,true,true,中身の入った小さな包み。それなりの重みがあって、何か入っていそう。<br>収納棚に持ち帰って、開けてみよう。
+box02,鉄の弾薬箱,てつのだんやくばこ,-,5,0.5,other,box,box,ammo,6,,,,,-,-,search00,1,-,open,true,true,1,true,true,中身の入った小さな包み。それなりの重みがあって、何か入っていそう。<br>収納棚に持ち帰って、開けてみよう。
+box03,中身の見えない黒い袋,なかみのみえないおもいふくろ,-,5,0.5,other,box,box,material,10,,,,,-,-,search00,1,-,open,true,true,1,true,true,中身の入った小さな包み。それなりの重みがあって、何か入っていそう。<br>収納棚に持ち帰って、開けてみよう。
+-,,,,,,,,,,,,,,,,,,,,,,,,,,
+passCode00,数字の書かれたメモ,すうじのかかれためも,-,8,0.05,other,document,passCode,{0},,,,number4,,-,-,-,0,-,-,true,true,1,false,true,「{0}」と書かれたメモ。
+postcard00,絵はがき,えはがき,-,20,0.1,other,document,scenario,shop1-1,true,sub-meguru1-1,,,,-,-,-,0,-,use,true,true,1,true,true,どこかの風景が描かれた絵はがき。油絵具で描かれているみたい。<br>描かれている場所を目指したら、誰かに会えるかも。<br>（条件を満たすと、収納棚で<red>使う</red>ことができるようになります）
+postcard100,カボチャの描かれた絵はがき,かぼちゃのかかれたえはがき,-,-1,0,other,document,scenario,shop100-1,false,sub-meguru1-1,,,,-,-,-,0,-,use,true,true,1,true,true,どこかの風景が描かれた絵はがき。油絵具で描かれているみたい。<br>描かれている場所を目指したら、誰かに会えるかも。<br>（条件を満たすと、収納棚で<red>使う</red>ことができるようになります）
+-,,,,,,,,,,,,,,,,,,,,,,,,,,
+music00,カセットテープ,かせっとてーぷ,-,-1,0,other,music,music,title00,,,,,,-,-,-,0,-,-,false,false,1,true,true,古いカセットテープ。「<red>{0}</red>」が収録されているらしい。<br>（所持して探索すると、BGMが変更されます）<br>（「カセットテープ」を複数所持している場合は、ランダムに抽選されます）
+music01,カセットテープ,かせっとてーぷ,-,-1,0,other,music,music,character00,,,,,,-,-,-,0,-,-,false,false,1,true,true,古いカセットテープ。「<red>{0}</red>」が収録されているらしい。<br>（所持して探索すると、BGMが変更されます）<br>（「カセットテープ」を複数所持している場合は、ランダムに抽選されます）
+music02,カセットテープ,かせっとてーぷ,-,-1,0,other,music,music,character01,,,,,,-,-,-,0,-,-,false,false,1,true,true,古いカセットテープ。「<red>{0}</red>」が収録されているらしい。<br>（所持して探索すると、BGMが変更されます）<br>（「カセットテープ」を複数所持している場合は、ランダムに抽選されます）
+music03,カセットテープ,かせっとてーぷ,-,-1,0,other,music,music,character02,,,,,,-,-,-,0,-,-,false,false,1,true,true,古いカセットテープ。「<red>{0}</red>」が収録されているらしい。<br>（所持して探索すると、BGMが変更されます）<br>（「カセットテープ」を複数所持している場合は、ランダムに抽選されます）
+music04,カセットテープ,かせっとてーぷ,-,-1,0,other,music,music,character03,,,,,,-,-,-,0,-,-,false,false,1,true,true,古いカセットテープ。「<red>{0}</red>」が収録されているらしい。<br>（所持して探索すると、BGMが変更されます）<br>（「カセットテープ」を複数所持している場合は、ランダムに抽選されます）
+-,カセットテープ,かせっとてーぷ,-,-1,0,other,music,music,character04,,,,,,-,-,-,0,-,-,false,false,1,true,true,古いカセットテープ。「<red>{0}</red>」が収録されているらしい。<br>（所持して探索すると、BGMが変更されます）<br>（「カセットテープ」を複数所持している場合は、ランダムに抽選されます）
+music06,カセットテープ,かせっとてーぷ,-,-1,0,other,music,music,character05,,,,,,-,-,-,0,-,-,false,false,1,true,true,古いカセットテープ。「<red>{0}</red>」が収録されているらしい。<br>（所持して探索すると、BGMが変更されます）<br>（「カセットテープ」を複数所持している場合は、ランダムに抽選されます）
+music07,カセットテープ,かせっとてーぷ,-,-1,0,other,music,music,character06,,,,,,-,-,-,0,-,-,false,false,1,true,true,古いカセットテープ。「<red>{0}</red>」が収録されているらしい。<br>（所持して探索すると、BGMが変更されます）<br>（「カセットテープ」を複数所持している場合は、ランダムに抽選されます）
+music08,カセットテープ,かせっとてーぷ,-,-1,0,other,music,music,character07,,,,,,-,-,-,0,-,-,false,false,1,true,true,古いカセットテープ。「<red>{0}</red>」が収録されているらしい。<br>（所持して探索すると、BGMが変更されます）<br>（「カセットテープ」を複数所持している場合は、ランダムに抽選されます）
+music09,カセットテープ,かせっとてーぷ,-,-1,0,other,music,music,title01,,,,,,-,-,-,0,-,-,false,false,1,true,true,古いカセットテープ。「<red>{0}</red>」が収録されているらしい。<br>（所持して探索すると、BGMが変更されます）<br>（「カセットテープ」を複数所持している場合は、ランダムに抽選されます）
+-,,,,,,,,,,,,,,,,,,,,,,,,,,
+bag00,ショルダーバッグ,しょるだーばっぐ,-,100,0,other,bag,inventory,5,,,,,,-,-,-,0,-,-,true,true,1,true,true,荷物を入れるかばん。もっていると荷物の所持上限が <red>{0}つ</red> 増える。<br>（かばんは、同時に1つまでしか効果を得られません）
+bag01,手づくりナップサック,てづくりなっぷさっく,-,100,0,other,bag,inventory,3,,,,,,-,-,-,0,-,-,true,true,1,true,true,荷物を入れるかばん。もっていると荷物の所持上限が <red>{0}つ</red> 増える。<br>（かばんは、同時に1つまでしか効果を得られません）
+bag02,ボストンバッグ,ぼすとんばっぐ,-,100,0,other,bag,inventory,10,,,,,,-,-,-,0,-,-,true,true,1,true,true,荷物を入れるかばん。もっていると荷物の所持上限が <red>{0}つ</red> 増える。<br>（かばんは、同時に1つまでしか効果を得られません）
+-,,,,,,,,,,,,,,,,,,,,,,,,,,
+map00,食料庫の地図,しょくりょうこのちず,-,15,0.1,other,map,map,foodStorage00,3,,,location,,-,-,-,0,-,-,true,true,1,false,true,「{0}」までの道のりが記された地図。<red>{1}</red>から出発して、<red>{2}件</red>進んだところに{3}があるらしい。<br>（地図を持って探索に向かうと、目的地にたどり着くことができる）<br>（目的地にたどり着くと地図は消費される）
+map01,武器庫の地図,ぶきこのちず,-,15,0.1,other,map,map,armoury00,3,,,location,,-,-,-,0,-,-,true,true,1,false,true,「{0}」までの道のりが記された地図。<red>{1}</red>から出発して、<red>{2}件</red>進んだところに{3}があるらしい。<br>（地図を持って探索に向かうと、目的地にたどり着くことができる）<br>（目的地にたどり着くと地図は消費される）
+map02,食料庫の地図,しょくりょうこのちず,-,15,0.1,other,map,map,foodStorage00,2,,,location,,-,-,-,0,-,-,true,true,1,false,true,「{0}」までの道のりが記された地図。<red>{1}</red>から出発して、<red>{2}件</red>進んだところに{3}があるらしい。<br>（地図を持って探索に向かうと、目的地にたどり着くことができる）<br>（目的地にたどり着くと地図は消費される）
+map03,武器庫の地図,ぶきこのちず,-,15,0.1,other,map,map,armoury00,2,,,location,,-,-,-,0,-,-,true,true,1,false,true,「{0}」までの道のりが記された地図。<red>{1}</red>から出発して、<red>{2}件</red>進んだところに{3}があるらしい。<br>（地図を持って探索に向かうと、目的地にたどり着くことができる）<br>（目的地にたどり着くと地図は消費される）
+map04,収容施設の地図,しゅうようしせつのちず,endless,10,0.2,other,map,map,prison01,4,,,location,,-,-,-,0,-,-,true,true,1,false,true,「{0}」までの道のりが記された地図。<red>{1}</red>から出発して、<red>{2}件</red>進んだところに{3}があるらしい。<br>（地図を持って探索に向かうと、目的地にたどり着くことができる）<br>（目的地にたどり着くと地図は消費される）
+map05,倉庫の地図,そうこのちず,endless,10,0.2,other,map,map,storehouse02,4,,,location,,-,-,-,0,-,-,true,true,1,false,true,「{0}」までの道のりが記された地図。<red>{1}</red>から出発して、<red>{2}件</red>進んだところに{3}があるらしい。<br>（地図を持って探索に向かうと、目的地にたどり着くことができる）<br>（目的地にたどり着くと地図は消費される）
+map06,病院の地図,びょういんのちず,endless,10,0.2,other,map,map,hospital02,5,,,location,,-,-,-,0,-,-,true,true,1,false,true,「{0}」までの道のりが記された地図。<red>{1}</red>から出発して、<red>{2}件</red>進んだところに{3}があるらしい。<br>（地図を持って探索に向かうと、目的地にたどり着くことができる）<br>（目的地にたどり着くと地図は消費される）
+map07,収容施設の地図,しゅうようしせつのちず,endless,10,0.2,other,map,map,prison02,4,,,location,,-,-,-,0,-,-,true,true,1,false,true,「{0}」までの道のりが記された地図。<red>{1}</red>から出発して、<red>{2}件</red>進んだところに{3}があるらしい。<br>（地図を持って探索に向かうと、目的地にたどり着くことができる）<br>（目的地にたどり着くと地図は消費される）
+map08,映画館の地図,えいがかんのちず,endless,10,0.2,other,map,map,theater00,3,,,location,,-,-,-,0,-,-,true,true,1,false,true,「{0}」までの道のりが記された地図。<red>{1}</red>から出発して、<red>{2}件</red>進んだところに{3}があるらしい。<br>（地図を持って探索に向かうと、目的地にたどり着くことができる）<br>（目的地にたどり着くと地図は消費される）
+map09,公民館の地図,こうみんかんのちず,endless,10,0.2,other,map,map,theater01,3,,,location,,-,-,-,0,-,-,true,true,1,false,true,「{0}」までの道のりが記された地図。<red>{1}</red>から出発して、<red>{2}件</red>進んだところに{3}があるらしい。<br>（地図を持って探索に向かうと、目的地にたどり着くことができる）<br>（目的地にたどり着くと地図は消費される）
+map10,劇場の地図,げきじょうのちず,endless,10,0.2,other,map,map,theater02,3,,,location,,-,-,-,0,-,-,true,true,1,false,true,「{0}」までの道のりが記された地図。<red>{1}</red>から出発して、<red>{2}件</red>進んだところに{3}があるらしい。<br>（地図を持って探索に向かうと、目的地にたどり着くことができる）<br>（目的地にたどり着くと地図は消費される）
+map100,暖炉のある小屋の地図,だんろのあるこやのちず,-,-1,0,other,map,map,hut100,2,,,-,,-,-,-,0,-,-,true,false,1,false,true,「{0}」までの道のりが記された地図。探索に出発して、<red>{2}件</red>進んだところに{3}があるらしい。<br>（地図を持って探索に向かうと、目的地にたどり着くことができる）<br>（目的地にたどり着くと地図は消費される）
+-,,,,,,,,,,,,,,,,,,,,,,,,,,
+photo00,町の写真,まちのしゃしん,endless,-1,0,other,photo,photo,baseCamp00,,,,random5-10,,-,-,-,0,-,-,true,true,1,false,true,「<red>{0}</red>」の写った写真。この写真を持って、あと<red>{1}回</red>探索するとたどり着くことができそう。<br>（目的地にたどり着くと写真は消費される）
+photo01,都会の写真,とかいのしゃしん,endless,-1,0,other,photo,photo,baseCamp01,,,,random5-10,,-,-,-,0,-,-,true,true,1,false,true,「<red>{0}</red>」の写った写真。この写真を持って、あと<red>{1}回</red>探索するとたどり着くことができそう。<br>（目的地にたどり着くと写真は消費される）
+photo02,森の写真,もりのしゃしん,endless,-1,0,other,photo,photo,baseCamp02,,,,random5-10,,-,-,-,0,-,-,true,true,1,false,true,「<red>{0}</red>」の写った写真。この写真を持って、あと<red>{1}回</red>探索するとたどり着くことができそう。<br>（目的地にたどり着くと写真は消費される）
+photo03,公園の写真,こうえんのしゃしん,endless,-1,0,other,photo,photo,baseCamp03,,,,random5-10,,-,-,-,0,-,-,true,true,1,false,true,「<red>{0}</red>」の写った写真。この写真を持って、あと<red>{1}回</red>探索するとたどり着くことができそう。<br>（目的地にたどり着くと写真は消費される）
+photo04,草原の写真,そうげんのしゃしん,endless,-1,0,other,photo,photo,baseCamp04,,,,random5-10,,-,-,-,0,-,-,true,true,1,false,true,「<red>{0}</red>」の写った写真。この写真を持って、あと<red>{1}回</red>探索するとたどり着くことができそう。<br>（目的地にたどり着くと写真は消費される）
+photo05,山の写真,やまのしゃしん,endless,-1,0,other,photo,photo,baseCamp05,,,,random5-10,,-,-,-,0,-,-,true,true,1,false,true,「<red>{0}</red>」の写った写真。この写真を持って、あと<red>{1}回</red>探索するとたどり着くことができそう。<br>（目的地にたどり着くと写真は消費される）
+photo06,海辺の写真,うみべのしゃしん,endless,-1,0,other,photo,photo,baseCamp06,,,,random5-10,,-,-,-,0,-,-,true,true,1,false,true,「<red>{0}</red>」の写った写真。この写真を持って、あと<red>{1}回</red>探索するとたどり着くことができそう。<br>（目的地にたどり着くと写真は消費される）
+photo07,線路の写真,せんろのしゃしん,endless,-1,0,other,photo,photo,baseCamp07,,,,random5-10,,-,-,-,0,-,-,true,true,1,false,true,「<red>{0}</red>」の写った写真。この写真を持って、あと<red>{1}回</red>探索するとたどり着くことができそう。<br>（目的地にたどり着くと写真は消費される）
+-,,,,,,,,,,,,,,,,,,,,,,,,,,
+letter00,誰かの書き置き,だれかのかきおき,-,0,0.01,other,document,eventArrivedLocation,itemGetFindByLetterGun00,,,,random5-10,,-,-,-,0,-,-,true,true,1,false,true,誰かのメモが書かれた紙切れ。<br>あと<red>{0}件</red>進んだところに、<red>{1}</red>を置いてきたらしい。<br>今もまだ、そこに残されたままかもしれない。
+letter01,誰かの書き置き,だれかのかきおき,-,0,0.01,other,document,eventArrivedLocation,itemGetFindByLetterHammer00,,,,random5-10,,-,-,-,0,-,-,true,true,1,false,true,誰かのメモが書かれた紙切れ。<br>あと<red>{0}件</red>進んだところに、<red>{1}</red>を置いてきたらしい。<br>今もまだ、そこに残されたままかもしれない。
+letter02,誰かの書き置き,だれかのかきおき,-,0,0.01,other,document,eventArrivedLocation,itemGetFindByLetterBox00,,,,random5-10,,-,-,-,0,-,-,true,true,1,false,true,誰かのメモが書かれた紙切れ。<br>あと<red>{0}件</red>進んだところに、<red>{1}</red>を置いてきたらしい。<br>今もまだ、そこに残されたままかもしれない。
+letter03,誰かの書き置き,だれかのかきおき,-,0,0.01,other,document,eventArrivedLocation,itemGetFindByLetterVariable00,,,,random5-10,,-,-,-,0,-,-,true,true,1,false,true,誰かのメモが書かれた紙切れ。<br>あと<red>{0}件</red>進んだところに、<red>{1}</red>を置いてきたらしい。<br>今もまだ、そこに残されたままかもしれない。
+-,,,,,,,,,,,,,,,,,,,,,,,,,,
+mission00,依頼のメモ,いらいのめも,endless,5,0.01,other,document,mission,5,weapon,1,mission1-1,randomItem-material,,-,-,-,0,-,mission,true,true,1,false,true,誰かの依頼が書かれたメモ。<br><red>{0}</red>を<red>{1}こ</red>届けてほしいらしい。お礼に<red>{2}</red>を用意していると書いてある。<br>（指定された品を所持していると、収納棚から<red>届ける</red>ことができます）
+mission01,依頼のメモ,いらいのめも,endless,5,0.01,other,document,mission,5,weapon,1,mission1-1,randomItem-food,,-,-,-,0,-,mission,true,true,1,false,true,誰かの依頼が書かれたメモ。<br><red>{0}</red>を<red>{1}こ</red>届けてほしいらしい。お礼に<red>{2}</red>を用意していると書いてある。<br>（指定された品を所持していると、収納棚から<red>届ける</red>ことができます）
+mission02,依頼のメモ,いらいのめも,endless,5,0.01,other,document,mission,3,coin,3,mission1-1,randomItem-cooking,,-,-,-,0,-,mission,true,true,1,false,true,誰かの依頼が書かれたメモ。<br><red>{0}</red>を<red>{1}こ</red>届けてほしいらしい。お礼に<red>{2}</red>を用意していると書いてある。<br>（指定された品を所持していると、収納棚から<red>届ける</red>ことができます）
+mission03,依頼のメモ,いらいのめも,endless,5,0.01,other,document,mission,5,coin,3,mission1-1,randomItem-medicine,,-,-,-,0,-,mission,true,true,1,false,true,誰かの依頼が書かれたメモ。<br><red>{0}</red>を<red>{1}こ</red>届けてほしいらしい。お礼に<red>{2}</red>を用意していると書いてある。<br>（指定された品を所持していると、収納棚から<red>届ける</red>ことができます）
+mission04,依頼のメモ,いらいのめも,endless,5,0.01,other,document,mission,3,coin,3,mission1-1,randomItem-tool,,-,-,-,0,-,mission,true,true,1,false,true,誰かの依頼が書かれたメモ。<br><red>{0}</red>を<red>{1}こ</red>届けてほしいらしい。お礼に<red>{2}</red>を用意していると書いてある。<br>（指定された品を所持していると、収納棚から<red>届ける</red>ことができます）
+mission05,依頼のメモ,いらいのめも,endless,5,0.01,other,document,mission,5,variable,1,mission1-1,randomItem-medicine,,-,-,-,0,-,mission,true,true,1,false,true,誰かの依頼が書かれたメモ。<br><red>{0}</red>を<red>{1}こ</red>届けてほしいらしい。お礼に<red>{2}</red>を用意していると書いてある。<br>（指定された品を所持していると、収納棚から<red>届ける</red>ことができます）
+mission06,依頼のメモ,いらいのめも,endless,5,0.01,other,document,mission,3,addAccessory,1,mission1-1,randomItem-tool,,-,-,-,0,-,mission,true,true,1,false,true,誰かの依頼が書かれたメモ。<br><red>{0}</red>を<red>{1}こ</red>届けてほしいらしい。お礼に<red>{2}</red>を用意していると書いてある。<br>（指定された品を所持していると、収納棚から<red>届ける</red>ことができます）
+-,,,,,,,,,,,,,,,,,,,,,,,,,,
+journey00,真っ白な地図,まっしろなちず,endless,10,0.2,other,document,quest,journey00,,,,location,,-,-,-,0,-,departure,true,true,1,false,true,<red>{0}</red>だけが描かれていて、ほかは真っ白な地図。<br>（「収納棚」から<red>出発</red>して、<red>車の燃料</red>を集めながら何件探索できるか挑戦します）<br>（GameOverになった場合、空腹で探索を中断した場合は記録されません）
+record00,手描きの小さな地図,てがきのちいさなちず,-,-1,0,other,document,record,0,,,,,,-,-,-,0,-,-,true,true,1,false,true,<red>{0}</red>が真っ白な地図を手に旅をして、自分で描いた地図。<br><red>{1}件</red>探索した記録。
+record01,手描きのそこそこの地図,てがきのそこそこのちず,-,-1,0,other,document,record,20,,,,,,-,-,-,0,-,-,true,true,1,false,true,<red>{0}</red>が真っ白な地図を手に旅をして、自分で描いた地図。<br><red>{1}件</red>探索した記録。
+record02,手描きの大きな地図,てがきのおおきなちず,-,-1,0,other,document,record,50,,,,,,-,-,-,0,-,-,true,true,1,false,true,<red>{0}</red>が真っ白な地図を手に旅をして、自分で描いた地図。<br><red>{1}件</red>探索した記録。
+-,,,,,,,,,,,,,,,,,,,,,,,,,,
+parts00,ハンドガン強化パーツ,はんどがんきょうかぱーつ,-,10,0.1,other,material,variable,gun00,add5,,,,,-,-,craft00,1,-,use,true,true,1,true,true,ハンドガンの威力を上げるためのパーツ。<br>ハンドガンと組み合わせることで、武器の攻撃力を&nbsp;<red>+5</red>&nbsp;する。
+parts01,ハンドガン強化パーツ+,はんどがんきょうかぱーつぷらす,-,15,0.1,other,material,variable,gun00,add10,,,,,-,-,craft00,1,-,use,true,true,1,true,true,ハンドガンの威力を上げるためのパーツ。<br>ハンドガンと組み合わせることで、武器の攻撃力を&nbsp;<red>+10</red>&nbsp;する。
+parts02,ショットガン強化パーツ,しょっとがんきょうかぱーつ,-,15,0.1,other,material,variable,gun01,add5,,,,,-,-,craft00,1,-,use,true,true,1,true,true,ショットガンの威力を上げるためのパーツ。<br>ショットガンと組み合わせることで、武器の攻撃力を&nbsp;<red>+5</red>&nbsp;する。
+parts03,ハンドガン保護パーツ,はんどがんほごぱーつ,-,20,0.1,other,material,addAccessory,gun00,durable03,,,,,-,-,craft00,1,-,use,true,true,1,true,true,ハンドガンを保護するパーツ。<br>特徴「<red>丈夫な</red>」を付与することができる。<br>（すでに「特徴」をもっている道具には使用できません）
+parts04,ハンドガン保護パーツ+,はんどがんほごぱーつぷらす,-,20,0.1,other,material,addAccessory,gun00,durable05,,,,,-,-,craft00,1,-,use,true,true,1,true,true,ハンドガンを保護するパーツ。<br>特徴「<red>丈夫な</red>」を付与することができる。<br>（すでに「特徴」をもっている道具には使用できません）
+parts05,ショットガン保護パーツ,しょっとがんほごぱーつ,-,20,0.1,other,material,addAccessory,gun01,durable03,,,,,-,-,craft00,1,-,use,true,true,1,true,true,ショットガンを保護するパーツ。<br>特徴「<red>丈夫な</red>」を付与することができる。<br>（すでに「特徴」をもっている道具には使用できません）
+parts06,ショットガン保護パーツ+,しょっとがんほごぱーつぷらす,-,20,0.1,other,material,addAccessory,gun01,durable05,,,,,-,-,craft00,1,-,use,true,true,1,true,true,ショットガンを保護するパーツ。<br>特徴「<red>丈夫な</red>」を付与することができる。<br>（すでに「特徴」をもっている道具には使用できません）
+-,,,,,,,,,,,,,,,,,,,,,,,,,,
+memory-main01,古い新聞の束,ふるいしんぶんのたば,-,-1,0,memory,memory,memory,1,cargo,,,,,-,-,-,0,0,-,true,true,1,true,false,エピソード進行アイテム<br>&lt;{0}&gt;
+memory-main02,保存食セット,ほぞんしょくせっと,-,-1,0,memory,memory,memory,1,cargo,,,,,-,-,-,0,0,-,true,true,1,true,false,エピソード進行アイテム<br>&lt;{0}&gt;
+memory-main03,固形燃料の備蓄,こけいねんりょうのびちく,-,-1,0,memory,memory,memory,1,cargo,,,,,-,-,-,0,0,-,true,true,1,true,false,エピソード進行アイテム<br>&lt;{0}&gt;
+memory-main04,燃料の詰まったポリタンク,ねんりょうのつまったぽりたんく,-,-1,0,memory,memory,memory,2,cargo,,,,,-,-,-,0,0,-,true,true,1,true,false,エピソード進行アイテム<br>&lt;{0}&gt;
+memory-main05,何かの研究資料の山,なにかのけんきゅうしりょうのやま,-,-1,0,memory,memory,memory,2,cargo,,,,,-,-,-,0,0,-,true,true,1,true,false,エピソード進行アイテム<br>&lt;{0}&gt;
+memory-main06,未開封の電池でいっぱいの箱,みかいふうのでんちでいっぱいのはこ,-,-1,0,memory,memory,memory,2,cargo,,,,,-,-,-,0,0,-,true,true,1,true,false,エピソード進行アイテム<br>&lt;{0}&gt;
+memory-main07,時計が生えてきた感染者の屍,とけいがはえてきたかんせんしゃのしかばね,-,-1,0,memory,memory,memory,3,scene,,,,,-,-,-,0,0,-,true,true,1,true,false,エピソード進行アイテム<br>&lt;{0}&gt;
+memory-main08,赤い花が生えてきた感染者の屍,あかいはながはえてきたかんせんしゃのしかばね,-,-1,0,memory,memory,memory,3,scene,,,,,-,-,-,0,0,-,true,true,1,true,false,エピソード進行アイテム<br>&lt;{0}&gt;
+memory-main09,黒板が生えてきた感染者の屍,こくばんがはえてきたかんせんしゃのしかばね,-,-1,0,memory,memory,memory,3,scene,,,,,-,-,-,0,0,-,true,true,1,true,false,エピソード進行アイテム<br>&lt;{0}&gt;
+memory-main10,上半身がゼリー状の感染者の屍,じょうはんしんがぜりーじょうのかんせんしゃのしかばね,-,-1,0,memory,memory,memory,4,scene,,,,,-,-,-,0,0,-,true,true,1,true,false,エピソード進行アイテム<br>&lt;{0}&gt;
+memory-main11,身体中から芽が出た感染者の屍,からだじゅうからめがはえたかんせんしゃのしかばね,-,-1,0,memory,memory,memory,4,scene,,,,,-,-,-,0,0,-,true,true,1,true,false,エピソード進行アイテム<br>&lt;{0}&gt;
+memory-main12,血管が銅線に変わった感染者の屍,けっかんがどうせんにかわったかんせんしゃのしかばね,-,-1,0,memory,memory,memory,4,scene,,,,,-,-,-,0,0,-,true,true,1,true,false,エピソード進行アイテム<br>&lt;{0}&gt;
+memory-main13,乾麺のたくさん入った箱,かんめんのたくさんはいったはこ,-,-1,0,memory,memory,memory,9,scene,,,,,-,-,-,0,0,-,true,true,1,true,false,エピソード進行アイテム<br>&lt;{0}&gt;
+memory-main14,未開封の洗濯用洗剤,みかいふうのせんたくようせんざい,-,-1,0,memory,memory,memory,9,scene,,,,,-,-,-,0,0,-,true,true,1,true,false,エピソード進行アイテム<br>&lt;{0}&gt;
+memory-main15,飲料水の大きなボトル,いんりょうすいのおおきなぼとる,-,-1,0,memory,memory,memory,10,scene,,,,,-,-,-,0,0,-,true,true,1,true,false,エピソード進行アイテム<br>&lt;{0}&gt;
+memory-main16,中身の入った燃料タンク,なかみのはいったねんりょうたんく,-,-1,0,memory,memory,memory,10,scene,,,,,-,-,-,0,0,-,true,true,1,true,false,エピソード進行アイテム<br>&lt;{0}&gt;
+memory-main17,鎮痛剤,ちんつうざい,-,-1,0,memory,memory,memory,13,scene,,,,,-,-,-,0,0,-,true,true,1,true,false,エピソード進行アイテム<br>&lt;{0}&gt;
+memory-main18,薬品の詰まった箱,やくひんのつまったはこ,-,-1,0,memory,memory,memory,13,scene,,,,,-,-,-,0,0,-,true,true,1,true,false,エピソード進行アイテム<br>&lt;{0}&gt;
+memory-main19,鎮痛剤の瓶,ちんつうざいのびん,-,-1,0,memory,memory,memory,14,scene,,,,,-,-,-,0,0,-,true,true,1,true,false,エピソード進行アイテム<br>&lt;{0}&gt;
+memory-main20,得体のしれない薬,えたいのしれないくすり,-,-1,0,memory,memory,memory,14,scene,,,,,-,-,-,0,0,-,true,true,1,true,false,エピソード進行アイテム<br>&lt;{0}&gt;
+memory-kiko00,動物の足跡,どうぶつのあしあと,-,-1,0,memory,memory,memory,101,scene,,,,,-,-,-,0,0,-,true,true,1,true,false,エピソード進行アイテム<br>&lt;{0}&gt;
+memory-kiko01,動物の抜け毛,どうぶつのぬけげ,-,-1,0,memory,memory,memory,101,scene,,,,,-,-,-,0,0,-,true,true,1,true,false,エピソード進行アイテム<br>&lt;{0}&gt;
+memory-kiko02,動物の食事の跡,どうぶつのしょくじのあと,-,-1,0,memory,memory,memory,101,scene,,,,,-,-,-,0,0,-,true,true,1,true,false,エピソード進行アイテム<br>&lt;{0}&gt;
+memory-shino00,見覚えのある景色,みおぼえのあるけしき,-,-1,0,memory,memory,memory,102,scene,,,,,-,-,-,0,0,-,true,true,1,true,false,エピソード進行アイテム<br>&lt;{0}&gt;
+memory-shino01,写真と似た景色,しゃしんとにたけしき,-,-1,0,memory,memory,memory,102,scene,,,,,-,-,-,0,0,-,true,true,1,true,false,エピソード進行アイテム<br>&lt;{0}&gt;
+memory-shino02,写真に写っている景色,しゃしんにうつっているけしき,-,-1,0,memory,memory,memory,102,scene,,,,,-,-,-,0,0,-,true,true,1,true,false,エピソード進行アイテム<br>&lt;{0}&gt;
+memory-akane00,鎮痛剤の瓶,ちんつうざいのびん,-,-1,0,memory,memory,memory,103,scene,,,,,-,-,-,0,0,-,true,true,1,true,false,エピソード進行アイテム<br>&lt;{0}&gt;
+memory-akane01,薬が詰まったケース,くすりがつまったけーす,-,-1,0,memory,memory,memory,103,scene,,,,,-,-,-,0,0,-,true,true,1,true,false,エピソード進行アイテム<br>&lt;{0}&gt;
+memory-akane02,誰かの研究ノート,だれかのけんきゅうのーと,-,-1,0,memory,memory,memory,103,scene,,,,,-,-,-,0,0,-,true,true,1,true,false,エピソード進行アイテム<br>&lt;{0}&gt;
+memory-minamo00,学校の場所が書かれた地図,がっこうのばしょがかかれたちず,-,-1,0,memory,memory,memory,104,scene,,,,,-,-,-,0,0,-,true,true,1,true,false,エピソード進行アイテム<br>&lt;{0}&gt;
+memory-minamo01,近所の高校のチラシ,きんじょのこうこうのちらし,-,-1,0,memory,memory,memory,104,scene,,,,,-,-,-,0,0,-,true,true,1,true,false,エピソード進行アイテム<br>&lt;{0}&gt;
+memory-minamo02,道場生募集のパンフレット,どうじょうせいぼしゅうのぱんふれっと,-,-1,0,memory,memory,memory,104,scene,,,,,-,-,-,0,0,-,true,true,1,true,false,エピソード進行アイテム<br>&lt;{0}&gt;
+memory-hinase00,金属製のパーツ,きんぞくせいのパーツ,-,-1,0,memory,memory,memory,105,scene,,,,,-,-,-,0,0,-,true,true,1,true,false,エピソード進行アイテム<br>&lt;{0}&gt;
+memory-hinase01,何かの部品,なにかのぶひん,-,-1,0,memory,memory,memory,105,scene,,,,,-,-,-,0,0,-,true,true,1,true,false,エピソード進行アイテム<br>&lt;{0}&gt;
+memory-hinase02,オイルまみれのパーツ,おいるまみれのぱーつ,-,-1,0,memory,memory,memory,105,scene,,,,,-,-,-,0,0,-,true,true,1,true,false,エピソード進行アイテム<br>&lt;{0}&gt;
+memory-itsuka00,助けを求める張り紙,たすけをもとめるはりがみ,-,-1,0,memory,memory,memory,106,scene,,,,,-,-,-,0,0,-,true,true,1,true,false,エピソード進行アイテム<br>&lt;{0}&gt;
+memory-itsuka01,最近まで人がいた跡,さいきんまでひとがいたあと,-,-1,0,memory,memory,memory,106,scene,,,,,-,-,-,0,0,-,true,true,1,true,false,エピソード進行アイテム<br>&lt;{0}&gt;
+memory-itsuka02,避難先を書き記したメモ,ひなんさきをかきしるしためも,-,-1,0,memory,memory,memory,106,scene,,,,,-,-,-,0,0,-,true,true,1,true,false,エピソード進行アイテム<br>&lt;{0}&gt;
+memory-kiko10,動物の足跡,どうぶつのあしあと,-,-1,0,memory,memory,memory,201,scene,,,,,-,-,-,0,0,-,true,true,1,true,false,エピソード進行アイテム<br>&lt;{0}&gt;
+memory-kiko11,動物の抜け毛,どうぶつのぬけげ,-,-1,0,memory,memory,memory,201,scene,,,,,-,-,-,0,0,-,true,true,1,true,false,エピソード進行アイテム<br>&lt;{0}&gt;
+memory-kiko12,動物の食事の跡,どうぶつのしょくじのあと,-,-1,0,memory,memory,memory,201,scene,,,,,-,-,-,0,0,-,true,true,1,true,false,エピソード進行アイテム<br>&lt;{0}&gt;
+memory-shino10,景色のよく見える場所,けしきのよくみえるばしょ,-,-1,0,memory,memory,memory,202,scene,,,,,-,-,-,0,0,-,true,true,1,true,false,エピソード進行アイテム<br>&lt;{0}&gt;
+memory-shino11,町を見下ろせる場所,まちをみおろせるばしょ,-,-1,0,memory,memory,memory,202,scene,,,,,-,-,-,0,0,-,true,true,1,true,false,エピソード進行アイテム<br>&lt;{0}&gt;
+memory-shino12,山々が連なる景色,やまやまがつらなるけしき,-,-1,0,memory,memory,memory,202,scene,,,,,-,-,-,0,0,-,true,true,1,true,false,エピソード進行アイテム<br>&lt;{0}&gt;
+memory-akane10,鎮痛剤の瓶,ちんつうざいのびん,-,-1,0,memory,memory,memory,203,scene,,,,,-,-,-,0,0,-,true,true,1,true,false,エピソード進行アイテム<br>&lt;{0}&gt;
+memory-akane11,薬が詰まったケース,くすりがつまったけーす,-,-1,0,memory,memory,memory,203,scene,,,,,-,-,-,0,0,-,true,true,1,true,false,エピソード進行アイテム<br>&lt;{0}&gt;
+memory-akane12,誰かの研究ノート,だれかのけんきゅうのーと,-,-1,0,memory,memory,memory,203,scene,,,,,-,-,-,0,0,-,true,true,1,true,false,エピソード進行アイテム<br>&lt;{0}&gt;
+memory-minamo10,水の溜まっている井戸,みずのたまっているいど,-,-1,0,memory,memory,memory,204,scene,,,,,-,-,-,0,0,-,true,true,1,true,false,エピソード進行アイテム<br>&lt;{0}&gt;
+memory-minamo11,野菜の種が入った袋,やさいのたねがはいったふくろ,-,-1,0,memory,memory,memory,204,scene,,,,,-,-,-,0,0,-,true,true,1,true,false,エピソード進行アイテム<br>&lt;{0}&gt;
+memory-minamo12,使い古された竹刀,つかいふるされたしない,-,-1,0,memory,memory,memory,204,scene,,,,,-,-,-,0,0,-,true,true,1,true,false,エピソード進行アイテム<br>&lt;{0}&gt;
+memory-hinase10,ポリタンク,ぽりたんく,-,-1,0,memory,memory,memory,205,scene,,,,,-,-,-,0,0,-,true,true,1,true,false,エピソード進行アイテム<br>&lt;{0}&gt;
+memory-hinase11,燃料の入った容器,ねんりょうのはいったようき,-,-1,0,memory,memory,memory,205,scene,,,,,-,-,-,0,0,-,true,true,1,true,false,エピソード進行アイテム<br>&lt;{0}&gt;
+memory-hinase12,車のバッテリー,くるまのばってりー,-,-1,0,memory,memory,memory,205,scene,,,,,-,-,-,0,0,-,true,true,1,true,false,エピソード進行アイテム<br>&lt;{0}&gt;
+memory-itsuka10,助けを求める張り紙,たすけをもとめるはりがみ,-,-1,0,memory,memory,memory,206,scene,,,,,-,-,-,0,0,-,true,true,1,true,false,エピソード進行アイテム<br>&lt;{0}&gt;
+memory-itsuka11,最近まで人がいた跡,さいきんまでひとがいたあと,-,-1,0,memory,memory,memory,206,scene,,,,,-,-,-,0,0,-,true,true,1,true,false,エピソード進行アイテム<br>&lt;{0}&gt;
+memory-itsuka12,避難先を書き記したメモ,ひなんさきをかきしるしためも,-,-1,0,memory,memory,memory,206,scene,,,,,-,-,-,0,0,-,true,true,1,true,false,エピソード進行アイテム<br>&lt;{0}&gt;
+memory-any00,頭の大きな木彫りの羊,きぼりのひつじ,-,-1,0,memory,memory,memory,-,cargo,,,,,-,-,-,0,0,-,true,true,1,true,true,エピソード進行アイテム。エピソード進行条件を<red>スキップ</red>することができます。<br>（一部、スキップできないエピソードもあります）
+memory-any01,三毛猫のぬいぐるみ,みけねこのぬいぐるみ,-,-1,0,memory,memory,memory,-,cargo,,,,,-,-,-,0,0,-,true,true,1,true,true,エピソード進行アイテム。エピソード進行条件を<red>スキップ</red>することができます。<br>（一部、スキップできないエピソードもあります）
+memory-any02,電子オルゴールの木箱,でんしおるごーるのきばこ,-,-1,0,memory,memory,memory,-,cargo,,,,,-,-,-,0,0,-,true,true,1,true,true,エピソード進行アイテム。エピソード進行条件を<red>スキップ</red>することができます。<br>（一部、スキップできないエピソードもあります）
+-,,,,,,,,,,,,,,,,,,,,,,,,,,
+coin00,油絵具のチューブ,あぶらえのぐのちゅーぶ,-,10,0.2,other,material,coin,,,,,,,-,-,-,1,-,-,true,true,1,true,true,チューブの油絵具。20号と書かれている。<br>誰かほしがっている人がいるかも。
+-,,,,,,,,,,,,,,,,,,,,,,,,,,
+collection01,穏やかな丘の描かれた絵,おだやかなおかのえがかれたえ,endless,-1,0,collection,collection,scenario,collection1-1,false,,,1,,-,-,-,0,0,scenario,false,false,1,true,false,蒐集品　No.{0}<br>（収納棚で選択することで、<red>ミニエピソード</red>を見ることができます）
+collection02,弾けそうなギター,ひけそうなぎたー,endless,-1,0,collection,collection,scenario,collection2-1,false,,,2,,-,-,-,0,0,scenario,false,false,1,true,false,蒐集品　No.{0}<br>（収納棚で選択することで、<red>ミニエピソード</red>を見ることができます）
+collection03,吸血鬼の恋を描いた小説,きゅうけつきのこいをえがいたしょうせつ,endless,-1,0,collection,collection,scenario,collection3-1,false,,,3,,-,-,-,0,0,scenario,false,false,1,true,false,蒐集品　No.{0}<br>（収納棚で選択することで、<red>ミニエピソード</red>を見ることができます）
+collection04,タイトルの読めないレコード,たいとるのよめないれこーど,endless,-1,0,collection,collection,scenario,collection4-1,false,,,4,,-,-,-,0,0,scenario,false,false,1,true,false,蒐集品　No.{0}<br>（収納棚で選択することで、<red>ミニエピソード</red>を見ることができます）
+collection05,真っ白な帆を広げたボトルシップ,まっしろなほをひろげたぼとるしっぷ,endless,-1,0,collection,collection,scenario,collection5-1,false,,,5,,-,-,-,0,0,scenario,false,false,1,true,false,蒐集品　No.{0}<br>（収納棚で選択することで、<red>ミニエピソード</red>を見ることができます）
+collection06,曲名のわからないオルゴール,きょくめいのわからないおるごーる,endless,-1,0,collection,collection,scenario,collection6-1,false,,,6,,-,-,-,0,0,scenario,false,false,1,true,false,蒐集品　No.{0}<br>（収納棚で選択することで、<red>ミニエピソード</red>を見ることができます）
+collection07,押し花のしおりが挟まった詩集,おしばなのしおりがはさまったししゅう,endless,-1,0,collection,collection,scenario,collection7-1,false,,,7,,-,-,-,0,0,scenario,false,false,1,true,false,蒐集品　No.{0}<br>（収納棚で選択することで、<red>ミニエピソード</red>を見ることができます）
+collection08,書き始めたばかりの日記帳,かきはじめたばかりのにっきちょう,endless,-1,0,collection,collection,scenario,collection8-1,false,,,8,,-,-,-,0,0,scenario,false,false,1,true,false,蒐集品　No.{0}<br>（収納棚で選択することで、<red>ミニエピソード</red>を見ることができます）
+collection09,割れて動かない腕時計,われてうごかないうでどけい,endless,-1,0,collection,collection,scenario,collection9-1,false,,,9,,-,-,-,0,0,scenario,false,false,1,true,false,蒐集品　No.{0}<br>（収納棚で選択することで、<red>ミニエピソード</red>を見ることができます）
+collection10,自由に育った小さなプランター,じゆうにそだったちいさなぷらんたー,endless,-1,0,collection,collection,scenario,collection10-1,false,,,10,,-,-,-,0,0,scenario,false,false,1,true,false,蒐集品　No.{0}<br>（収納棚で選択することで、<red>ミニエピソード</red>を見ることができます）
+collection11,精巧なロケットの模型,せいこうなろけっとのもけい,endless,-1,0,collection,collection,scenario,collection11-1,false,,,11,,-,-,-,0,0,scenario,false,false,1,true,false,蒐集品　No.{0}<br>（収納棚で選択することで、<red>ミニエピソード</red>を見ることができます）
+collection12,電源の切れたガラケー,でんげんのきれたがらけー,endless,-1,0,collection,collection,scenario,collection12-1,false,,,12,,-,-,-,0,0,scenario,false,false,1,true,false,蒐集品　No.{0}<br>（収納棚で選択することで、<red>ミニエピソード</red>を見ることができます）
+collection13,おばけが主役の絵本,おばけがしゅやくのえほん,endless,-1,0,collection,collection,scenario,collection13-1,false,,,13,,-,-,-,0,0,scenario,false,false,1,true,false,蒐集品　No.{0}<br>（収納棚で選択することで、<red>ミニエピソード</red>を見ることができます）
+collection14,上品なティーカップ,じょうひんなてぃーかっぷ,endless,-1,0,collection,collection,scenario,collection14-1,false,,,14,,-,-,-,0,0,scenario,false,false,1,true,false,蒐集品　No.{0}<br>（収納棚で選択することで、<red>ミニエピソード</red>を見ることができます）
+collection15,無骨なガスランタン,ぶこつながすらんたん,endless,-1,0,collection,collection,scenario,collection15-1,false,,,15,,-,-,-,0,0,scenario,false,false,1,true,false,蒐集品　No.{0}<br>（収納棚で選択することで、<red>ミニエピソード</red>を見ることができます）
+collection100,プレゼントの入った赤い靴下,ぷれぜんとのはいったあかいくつした,endless,-1,0,collection,present,scenario,collection100-1,false,,,100,,-,-,-,0,0,scenario,false,false,1,true,false,蒐集品　（クリスマス限定）<br>（収納棚で選択することで、<red>ミニエピソード</red>を見ることができます）
+collection101,板チョコの詰まった箱,いたちょこのつまったはこ,endless,-1,0,collection,present,scenario,collection101-1,false,,,101,,-,-,-,0,0,scenario,false,false,1,true,false,蒐集品　（バレンタイン限定）<br>（収納棚で選択することで、<red>ミニエピソード</red>を見ることができます）
+collection102,オバケのキャンディー,おばけのきゃんでぃー,endless,-1,0,collection,present,scenario,collection102-1,false,,,102,,-,-,-,0,0,scenario,false,false,1,true,false,蒐集品　（ハロウィン限定）<br>（収納棚で選択することで、<red>ミニエピソード</red>を見ることができます）
+-,,,,,,,,,,,,,,,,,,,,,,,,,,

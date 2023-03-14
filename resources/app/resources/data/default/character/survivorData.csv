@@ -1,0 +1,10 @@
+﻿id,name<jpn>,rarity,speakId,hp,stamina,speed,atk,def,skills[],skillConditionScenario[],callObject,favoriteFood,dislikeFood,image
+natsuno,ナツノ,1,natsuno,100,60,2,8,4,chatty,-,search00,rice,-,survivor00
+kiko,キコ,1,kiko,70,40,1.5,7,1,courage/timidity,kiko2-1/-,search00,vegetable,egg,survivor01
+shino,シノ,1,shino,120,60,2.5,5,5,curiosity,-,search00,egg,vegetable,survivor02
+akane,アカネ,1,akane,150,70,1.5,5,3,easy-going,-,search00,meat,vegetable,survivor03
+meguru,メグル,1,meguru,100,60,1.5,4,1,-,-,search00,meat,rice,survivor04
+minamo,ミナモ,1,minamo,140,80,3,10,3,swordsman,-,search00,meat,bread,survivor05
+itsuka,イツカ,1,itsuka,100,50,2,7,6,tidy,-,search00,egg,vegetable,survivor06
+hinase,ヒナセ,1,hinase,80,60,1.5,5,2,crafter,-,search00,vegetable,meat,survivor07
+-,,,,,,,,,,,,,,

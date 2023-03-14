@@ -1,0 +1,5 @@
+id,type,speakType,useStamina,events[],name<jpn>,describe<jpn>
+enemy00,-,findEnemyObstacle,1,battle01,感染者,<button>{0}</button>の前に、感染者が立っている。まだ気づかれていないらしい。
+furniture00,furniture,moveObstacle,5,-,倒れた棚,<button>{0}</button>の手前に棚が倒れていた。
+furniture01,furniture,moveObstacle,3,-,ひっくり返った机,<button>{0}</button>のすぐ前で、机がひっくり返っている。
+furniture02,furniture,moveObstacle,8,-,家具のバリケード,家具を積み重ねたバリケードが<button>{0}</button>への道を阻んでいる。

@@ -1,0 +1,13 @@
+id,name<jpn>,speakId[],eventId,subArg,continuation,description<jpn>
+exitKey00,門の鍵,lockedOutside/unlockOutside,locationLockedKeyGet00,keyPick,false,どこかの門の鍵。<br>（探索地を出ると、破棄されます）
+exitKey01,くすんだ鍵,lockedOutside/unlockOutside,locationLockedKeyGet00,keyPick,false,どこかの鍵。<br>（探索地を出ると、破棄されます）
+-,,,,,,
+objectKey00,金庫の鍵,-,-,-,false,拾った鍵。どこかの金庫で使えるかも。<br>（探索地を出ると、破棄されます）
+objectKey01,電子カードキー,-,-,-,false,拾ったカード。電子ロックを解除するものらしい。<br>（探索地を出ると、破棄されます）
+objectKey02,奇妙なかたちの宝石,-,-,-,false,不自然なかなちの宝石。何かに使えるかも。<br>（探索地を出ると、破棄されます）
+objectKey03,ダイヤル錠の番号のメモ,-,-,-,false,番号が書かれたメモ。<br>（探索地を出ると、破棄されます）
+objectKey04,石膏の薬指,-,-,-,false,石膏でできた指。どこかから外れたものみたい。<br>（探索地を出ると、破棄されます）
+objectKey05,金庫の番号のメモ,-,-,-,false,番号が書かれたメモ。<br>（探索地を出ると、破棄されます）
+-,,,,,,
+fuel00,車の燃料,requireFuel/-,locationLockedKeyGet01,-,true,車を動かすための燃料。<br>（探索地を出ると、破棄されます）
+-,,,,,,

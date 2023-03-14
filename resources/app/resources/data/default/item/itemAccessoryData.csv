@@ -1,0 +1,11 @@
+id,name<jpn>,ratio,type,buff,buffArgs[],debuff,debuffArgs[],onApplyItem[],description<jpn>
+weapon00,壊れかけの,0.1,weapon,-,-,overwriteArg1,0.5,-,今にも壊れそう。
+weapon01,音の響く,0.1,weapon,multiplyArg0,2,pushStageEvent,0.2/battle00,-,威力は高いけれど、他のより音がうるさい。音につられて敵が寄ってくることも。
+weapon02,反動の大きな,0.1,weapon,multiplyArg0,2,damage,10,-,威力は高いけれど、反動が大きすぎて自分自身もダメージを受ける。
+weapon03,初心者向けの,0.1,weapon,multiplyArg0,0.5,overwriteArg1,0.01,-,威力は控えめだけど、壊れにくい。
+durable01,丈夫な,-1,weapon,overwriteArg1,0,-,-,resetArg1/disableAccessory,丈夫で、使っても壊れない（あと1回）
+durable02,丈夫な,-1,weapon,overwriteArg1,0,-,-,decrementId,丈夫で、使っても壊れない（あと2回）
+durable03,丈夫な,0.1,weapon,overwriteArg1,0,-,-,decrementId,丈夫で、使っても壊れない（あと3回）
+durable04,丈夫な,-1,weapon,overwriteArg1,0,-,-,decrementId,丈夫で、使っても壊れない（あと4回）
+durable05,丈夫な,-1,weapon,overwriteArg1,0,-,-,decrementId,丈夫で、使っても壊れない（あと5回）
+-,,,,,,,,,

@@ -1,0 +1,15 @@
+id,location,rarity,name<jpn>,inputs[],events[]
+switch00,-,-1,変なスイッチ,search/push/hit/break,itemNotFound00/itemGetDrop03/accidentExplosion00/accidentExplosion00
+lever00,-,-1,何かのレバー,search/pull/hit/break,itemNotFound00/itemGetDrop03/accidentExplosion00/accidentExplosion00
+spring00,-,-1,ゼンマイ仕掛けのブリキのロボット,search/turn/roll/break,itemNotFound00/itemGetDrop03/itemGetDrop03/accidentExplosion00
+apartment_pinball00,apartment,-1,古いピンボールの機械,search/play/hit/break,itemNotFound00/itemGetDrop03/accidentExplosion00/accidentExplosion00
+hut_musicbox00,hut,-1,大きなディスク・オルゴール,search/turn/roll/break,itemNotFound00/itemGetDrop03/itemGetDrop03/accidentExplosion00
+shop_valve00,shop,-1,配管につながったバルブ,search/turn/hit/break,itemNotFound00/itemGetDrop03/accidentExplosion00/accidentExplosion00
+office_console00,office,-1,何かの操作卓,search/twist/hit/break,itemNotFound00/itemGetDrop03/accidentExplosion00/accidentExplosion00
+palace_statue00,palace,-1,首の曲がった銅像,search/turn/hit/break,itemNotFound00/itemGetDrop03/accidentExplosion00/accidentExplosion00
+village_rope00,village,-1,ロープで束ねられた木材,search/cut/hit/break,itemNotFound00/itemGetDrop03/accidentExplosion00/accidentExplosion00
+camp_chair00,camp,-1,ボロボロのキャンプ・チェア,search/sit/hit/break,itemNotFound00/itemGetDrop03/accidentExplosion00/accidentExplosion00
+seaside_box00,seaside,-1,歪んで開かなくなった木箱,search/burn/hit/break,itemNotFound00/itemGetDrop03/accidentExplosion00/accidentExplosion00
+hotel_switch00,hotel,-1,コードの切れた配電盤,search/connect/hit/break,itemNotFound00/itemGetDrop03/accidentExplosion00/accidentExplosion00
+library_statue00,library,-1,舌を出した犬の石像,search/pull/hit/break,itemNotFound00/itemGetDrop03/accidentExplosion00/accidentExplosion00
+-,,,,,
