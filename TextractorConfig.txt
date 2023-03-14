@@ -1,0 +1,1 @@
+see https://github.com/Artikash/Textractor/wiki/Game-configuration-file
