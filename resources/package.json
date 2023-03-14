@@ -1,0 +1,12 @@
+{
+  "name": "natsuno-kanata",
+  "version": "1.0.0",
+  "description": "natsuno-kanata",
+  "main": "main.js",
+  "author": "kazuhide-oka",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "electron-notarize": "^1.0.0"
+  }
+}
