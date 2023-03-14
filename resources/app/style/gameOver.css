@@ -1,0 +1,69 @@
+#gameOver
+{
+    width: 100%;
+	height: 100%;
+    display: none;
+	text-align: center;
+}
+
+#gameOverImage
+{
+    width: 100%;
+	height: 100%;
+    background-image: url("../resources/image/gameOver00.png");
+}
+
+#gameOverTopMargin
+{
+    width: 100%;
+    height: 30%;
+    top: 0;
+    background: var(--margin-top-border-gradient);
+}
+
+#gameOverBottomMargin
+{
+    width: 100%;
+    height: 30%;
+    top: 70%;
+    background: var(--margin-bottom-border-gradient);
+}
+
+#gameOverMessage
+{
+    width: 100%;
+	height: 100%;
+	top: 47%;
+	text-shadow: none;
+	color: var(--text-light-color);
+}
+
+#gameOverFrame
+{
+    width: 100%;
+	height: 100%;
+    background-image: url("../resources/image/blood00.png");
+	opacity: 0.6;
+}
+
+#gameOverContinue ,#gameOverToTitle
+{
+	width: 15%;
+	height: 7%;
+	top: 85%;
+	font-size: var(--text-font-size);
+	color: var(--text-dark-color);
+	text-shadow: none;
+}
+
+#gameOverContinue {
+	left: 60%;
+}
+
+#gameOverToTitle {
+	left: 78%;
+}
+
+
+
+

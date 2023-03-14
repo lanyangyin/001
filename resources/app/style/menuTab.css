@@ -1,0 +1,58 @@
+#menuTab {
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    text-align: center;
+    display: none;
+    pointer-events: none;
+
+    --button-letter-spacing: calc(var(--dynamic-wrapper-width) * 0.03);
+}
+
+#menuTabTopMargin {
+    width: 20%;
+    height: 100%;
+    background: var(--margin-top-border-gradient);
+}
+
+#menuTabBottomMargin {
+    width: 50%;
+    height: 100%;
+    left: 50%;
+    background: var(--margin-bottom-border-gradient);
+}
+
+#menuStory,
+#menuExproler,
+#menuHouse {
+    width: 10%;
+    height: 8%;
+    left: 5%;
+    pointer-events: all;
+}
+
+#menuStoryText,
+#menuExprolerText,
+#menuHouseText {
+    color: var(--text-dark-color);
+    text-shadow: none;
+    letter-spacing: normal;
+}
+
+#menuStory {
+    top: 14%;
+}
+
+#menuExproler {
+    top: 44%;
+}
+
+#menuHouse {
+    top: 74%;
+}
+
+#review {
+    top: 95%;
+    opacity: 0.6;
+}

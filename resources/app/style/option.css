@@ -1,0 +1,100 @@
+#option {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+#optionFilter {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.7) 30%, rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 0.7) 70%, rgba(0, 0, 0, 0.2) 100%);
+}
+
+#optionFrame {
+    width: 50%;
+    height: 100%;
+    top: 0%;
+    left: 25%;
+}
+
+#optionTitle {
+    width: 8%;
+    height: 5%;
+    left: 46%;
+    top: 20%;
+    color: var(--text-light-color);
+    text-shadow: var(--text-shadow-dark);
+    text-align: center;
+}
+
+#optionElements0,
+#optionElements1 {
+    width: 20%;
+    height: 50%;
+    top: 30%;
+}
+
+#optionElements0 {
+    left: 30%;
+}
+
+#optionElements1 {
+    left: 50%;
+}
+
+#optionElement0,
+#optionElement1,
+#optionElement2,
+#optionElement3,
+#optionElement4,
+#optionElement5,
+#optionElement6,
+#optionElement7,
+#optionElement8,
+#optionElement9,
+#optionElement10,
+#optionElement11,
+#optionClose {
+    position: relative;
+    width: 70%;
+    height: 10%;
+    left: 15%;
+    margin-bottom: 5%;
+    color: var(--text-light-color);
+    text-shadow: var(--text-shadow-dark);
+    font-size: var(--text-font-size);
+}
+
+#optionElement0::before,
+#optionElement1::before,
+#optionElement2::before,
+#optionElement3::before,
+#optionElement4::before,
+#optionElement5::before,
+#optionElement6::before,
+#optionElement7::before,
+#optionElement8::before,
+#optionElement9::before,
+#optionElement10::before,
+#optionElement11::before,
+#optionClose::before {
+    border-color: var(--border-light-color);
+}
+
+#optionClose {
+    position: absolute;
+    width: 10%;
+    height: 5%;
+    left: 45%;
+    top: 85%;
+}
+
+#optionOpen {
+    width: 2%;
+    height: 3.6%;
+    left: 96.5%;
+    top: 94%;
+    opacity: 80%;
+    background-image: url(../resources/image/option00.png);
+    display: none;
+}

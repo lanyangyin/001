@@ -1,0 +1,296 @@
+#quest {
+	width: 100%;
+	height: 100%;
+	display: none;
+
+	--margin-border-mask-left: linear-gradient(90deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 70%, rgba(0, 0, 0, 0.5) 75%, rgba(0, 0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);
+	--margin-border-mask-right: linear-gradient(-90deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 70%, rgba(0, 0, 0, 0.5) 75%, rgba(0, 0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);
+}
+
+#questTextTopMargin,
+#questTextTopMarginFore0,
+#questTextTopMarginFore1 {
+	width: 100%;
+	height: 20%;
+	top: 0%;
+	background: var(--margin-top-border-gradient);
+}
+
+#questTextBottomMargin,
+#questTextBottomMarginFore0,
+#questTextBottomMarginFore1 {
+	width: 100%;
+	height: 40%;
+	top: 60%;
+	background: var(--margin-bottom-border-gradient);
+}
+
+#questTextTopMarginFore0,
+#questTextTopMarginFore1 {
+	width: 40%;
+}
+
+#questTextBottomMarginFore0,
+#questTextBottomMarginFore1 {
+	width: 42%;
+}
+
+#questTextTopMarginFore0,
+#questTextBottomMarginFore0 {
+	left: 0%;
+	-webkit-mask-image: var(--margin-border-mask-left);
+	mask-image: var(--margin-border-mask-left);
+	transform: scale(1);
+}
+
+#questTextTopMarginFore1,
+#questTextBottomMarginFore1 {
+	right: 0%;
+	-webkit-mask-image: var(--margin-border-mask-right);
+	mask-image: var(--margin-border-mask-right);
+	transform: scale(1);
+}
+
+#questTextFrame0,
+#questTextFrame1 {
+	width: 20%;
+	height: 45%;
+	top: 20%;
+}
+
+#questTextFrame0 {
+	left: 0%;
+	-webkit-mask-image: var(--frame-gradient-left);
+	mask-image: var(--frame-gradient-left);
+}
+
+#questTextFrame1 {
+	left: 80%;
+	-webkit-mask-image: var(--frame-gradient-right);
+	mask-image: var(--frame-gradient-right);
+}
+
+#questText0,
+#questText1 {
+	width: 30%;
+	height: 100%;
+	top: 0;
+	overflow: hidden;
+}
+
+#questText0 {
+	left: 2%;
+}
+
+#questText1 {
+	left: 68%;
+}
+
+#status0,
+#status1 {
+	width: 100%;
+	height: 26%;
+	top: 0%;
+	left: 0%;
+}
+
+#statusNameBox0,
+#statusNameBox1 {
+	width: 100%;
+	height: 40%;
+	top: 6%;
+	left: 0%;
+	text-align: center;
+}
+
+#statusName0,
+#statusName1 {
+	color: var(--text-dark-color);
+}
+
+#statusBorder0,
+#statusBorder1 {
+	width: 100%;
+	left: 0%;
+	top: 30%;
+	background: var(--border-dark-color);
+	height: var(--border-width);
+}
+
+#statusVital0,
+#statusVital1 {
+	width: 50%;
+	height: 20%;
+	top: 40%;
+	left: 10%;
+	font-size: var(--item-font-size);
+	font-weight: var(--bold-font-weight);
+}
+
+#statusSkill0,
+#statusSkill1 {
+	width: 25%;
+	height: 15%;
+	top: 52%;
+	left: 35%;
+	font-size: var(--item-font-size);
+	font-weight: var(--bold-font-weight);
+}
+
+#statusItem0,
+#statusItem1 {
+	width: 25%;
+	height: 15%;
+	top: 52%;
+	left: 65%;
+	font-size: var(--item-font-size);
+	font-weight: var(--bold-font-weight);
+}
+
+#questTextArea0,
+#questTextArea1 {
+	width: 108%;
+	height: 28%;
+	top: 62%;
+	left: 0%;
+	font-size: var(--sentence-font-size);
+	line-height: 140%;
+	overflow-y: scroll;
+	padding: 2% 8% 2% 2%;
+}
+
+#questTextSymbol0_0,
+#questTextSymbol0_1,
+#questTextSymbol0_2,
+#questTextSymbol1_0,
+#questTextSymbol1_1,
+#questTextSymbol1_2 {
+	width: 4%;
+	height: 2%;
+	left: 88%;
+	top: 91%;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	color: var(--text-light-color);
+	animation: questTextSymbolFlash 2s linear infinite;
+}
+
+@keyframes questTextSymbolFlash {
+
+	0%,
+	100% {
+		opacity: 0;
+	}
+
+	50% {
+		opacity: 1;
+	}
+}
+
+#questTextSymbol0_0,
+#questTextSymbol1_0 {
+	display: inline;
+	background-image: url(../resources/image/textSymbol00.png);
+}
+
+#questTextSymbol0_1,
+#questTextSymbol1_1 {
+	display: none;
+	background-image: url(../resources/image/textSymbol01.png);
+}
+
+#questTextSymbol0_2,
+#questTextSymbol1_2 {
+	display: none;
+	background-image: url(../resources/image/textSymbol02.png);
+}
+
+#questInput0,
+#questInput1 {
+	position: absolute;
+	width: 45%;
+	height: 4%;
+	left: 5%;
+	top: 93%;
+	margin: 0;
+	color: var(--text-light-color);
+	font-size: var(--text-font-size);
+	text-shadow: none;
+	background-color: rgba(0, 0, 0, 0.7);
+	border: none;
+}
+
+#questInputHistory0,
+#questInputHistory1 {
+	width: 10%;
+	height: 5%;
+	left: 38%;
+	top: 92.2%;
+	font-size: var(--text-font-size);
+	color: var(--text-gray-color);
+}
+
+#questInputHistory0:before,
+#questInputHistory1:before {
+	border: none;
+}
+
+#questSend0,
+#questSend1 {
+	width: 25%;
+	height: 5%;
+	left: 60%;
+	top: 93%;
+	font-size: var(--text-font-size);
+}
+
+#questTips {
+	display: none;
+	position: absolute;
+	width: 28%;
+	height: 9%;
+	left: 70%;
+	top: 5%;
+	background-color: rgba(0, 0, 0, 0.3);
+	overflow-y: scroll;
+	color: rgb(150, 150, 150);
+	font-size: var(--text-font-size);
+	line-height: 140%;
+	padding: 0.5%;
+}
+
+#questTipsText {
+	position: absolute;
+	width: 90%;
+	height: 90%;
+	padding: 2%;
+}
+
+#questHitFilter {
+	width: 100%;
+	height: 100%;
+	background-image: url("../resources/image/hit00.png");
+	opacity: 0;
+}
+
+#questDamageFilter {
+	width: 100%;
+	height: 100%;
+	background-image: url("../resources/image/blood00.png");
+	opacity: 0;
+}
+
+#questHealFilter {
+	width: 100%;
+	height: 100%;
+	background-image: url("../resources/image/heal00.png");
+	opacity: 0;
+}
+
+#questTextAuto {
+	width: 5%;
+	height: 5%;
+	left: 32%;
+	top: 93%;
+	font-size: var(--text-font-size);
+}

@@ -1,0 +1,59 @@
+div.background {
+	z-index: -10;
+}
+
+#bgImageWindow {
+	width: 100%;
+	height: 100%;
+	top: 0%;
+	left: 0%;
+	will-change: transform;
+	/*
+	filter: saturate(200%);
+	filter: blur(0.3rem);
+	*/
+}
+
+#bgImage0 {
+	width: 100%;
+	height: 100%;
+	top: 0%;
+	left: 0%;
+}
+
+#bgImage1 {
+	width: 100%;
+	height: 100%;
+	top: 0%;
+	left: 0%;
+}
+
+#bgImageFilter0 {
+	width: 20%;
+	height: 60%;
+	left: 0%;
+	top: 20%;
+	-webkit-mask-image: var(--back-ground-blur-mask-left);
+	mask-image: var(--back-ground-blur-mask-left);
+	backdrop-filter: var(--back-ground-blur);
+}
+
+#bgImageFilter1 {
+	width: 20%;
+	height: 60%;
+	left: 80%;
+	top: 20%;
+	-webkit-mask-image: var(--back-ground-blur-mask-right);
+	mask-image: var(--back-ground-blur-mask-right);
+	backdrop-filter: var(--back-ground-blur);
+}
+
+#bgImageLight {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0%;
+	left: 0%;
+	mix-blend-mode: lighten;
+	opacity: 0.6;
+}

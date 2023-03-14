@@ -1,0 +1,26 @@
+#endroll {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+#endrollImage {
+    width: 100%;
+    height: 100%;
+    background-color: #222222;
+}
+
+#endrollWindow {
+    width: 30%;
+    height: 100%;
+    left: 10%;
+}
+
+#endrollMessage {
+    width: 100%;
+    height: 20%;
+    left: 0%;
+    top: 40%;
+    font-size: var(--text-font-size);
+    color: var(--text-light-color);
+}

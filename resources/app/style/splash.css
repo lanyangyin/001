@@ -1,0 +1,22 @@
+#splash {
+	width: 100%;
+	height: 100%;
+	display: inline;
+	text-align: center;
+}
+
+#splashBg {
+	width: 100%;
+	height: 100%;
+	background-color: var(--dark-color);
+}
+
+#splashMessage {
+	position: absolute;
+	width: 100%;
+	left: 50%;
+	top: 30%;
+	font-size: var(--text-font-size);
+	color: var(--text-light-color);
+	transform: translate(-50%, 0);
+}

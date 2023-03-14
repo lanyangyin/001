@@ -1,0 +1,56 @@
+#ending
+{
+    width: 100%;
+	height: 100%;
+    display: none;
+    text-align: center;
+}
+
+#endingTopMargin
+{
+    width: 100%;
+    height: 30%;
+    top: 0;
+    background: var(--margin-top-border-gradient);
+}
+
+#endingBottomMargin
+{
+    width: 100%;
+    height: 30%;
+    top: 70%;
+    background: var(--margin-bottom-border-gradient);
+}
+
+#endingWindow
+{
+	width: 50%;
+	height: 100%;
+    opacity: 0;
+    left: 25%;
+}
+
+#endingChapter
+{
+    position: relative;
+    height: 5%;
+    top: 10%;
+    font-size: var(--text-font-size);
+}
+
+#endingTitle
+{
+    position: relative;
+    height: 5%;
+    top: 12%;
+    font-size: var(--header-font-size);
+}
+
+#endingMessage
+{
+    position: relative;
+    height: 5%;
+    top: 72%;
+    font-size: var(--header-font-size);
+}
+
